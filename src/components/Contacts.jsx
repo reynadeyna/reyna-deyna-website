@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import db from '../../firebase.config';
 import { collection, addDoc } from "firebase/firestore";
+import db from '../../firebase.config';
+
 
 
 const Contacts = () => {
