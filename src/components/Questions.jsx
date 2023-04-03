@@ -21,7 +21,7 @@ const Questions = () => {
   useEffect(() => {
     getDataFromFirestore()
   }, [])
-  console.log(questions)
+  // console.log(questions)
 
 
   return (
