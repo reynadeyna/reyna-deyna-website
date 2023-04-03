@@ -1,1 +1,8 @@
-# my-web-vite-react-swc-firestore
+✿﹒❀ ♡
+·:*¨༺♱upcoming✮♱༻¨*:· 
+ websiteⵌ✦ for my
+musicᰔ, djing🎧, coding♡ and 
+elseᜊee
+♡ ✿﹒❀
+
+  
