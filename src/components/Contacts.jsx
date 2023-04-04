@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { collection, addDoc } from "firebase/firestore";
-import db from '../../firebase.config';
-
+import db from '../../firebase.config'
 
 
 const Contacts = () => {
@@ -39,7 +38,7 @@ const Contacts = () => {
     }
 
     return (
-        <div>
+        <div className='questions-container'>
 
             <form onSubmit={handleSubmit}>
 

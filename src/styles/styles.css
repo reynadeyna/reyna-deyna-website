@@ -1,0 +1,146 @@
+.nav {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.nav-links {
+  writing-mode: vertical-rl;
+}
+
+.nav:hover {
+  /* position: fixed; */
+  filter: drop-shadow(0 0 2em #ff00bfaa);
+
+}
+
+
+.home-title {
+  position: sticky;
+  display: flex;
+  /* position: fixed; */
+  /* margin-left: 7rem; */
+} 
+
+
+
+.questions-container {
+  position: absolute;
+}
+
+
+input:hover {
+    border-color: #bafff9aa;
+    filter: drop-shadow(0 0 2em #00ffeaaa);
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249, 221, 255, 0.4);
+
+}
+
+
+
+
+
+/*
+**********
+Metaball
+**********
+*/
+
+.hooksMain > div {
+    position: absolute;
+    will-change: transform;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px 0px rgba(197, 186, 250, 0.75);
+    opacity: 0.6;
+  }
+  
+  .hooksMain > div:nth-child(1) {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .hooksMain > div:nth-child(2) {
+    width: 222px;
+    height: 200px;
+  }
+  
+  .hooksMain > div:nth-child(3) {
+    width: 99px;
+    height: 75px;
+  }
+  
+  .hooksMain > div::after {
+    content: '';
+    position: absolute;
+    top: 59px;
+    left: 20px;
+    width: 66px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  .hooksMain > div:nth-child(2)::after {
+    top: 90px;
+    left: 35px;
+    width: 100px;
+    height: 35px;
+  }
+  
+  .hooksMain > div:nth-child(3)::after {
+    top: 25px;
+    left: 111px;
+    width: 90px;
+    height: 25px;
+  }
+  
+  .hooksMain {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: url('#goo');
+    overflow: hidden;
+    background: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+  }
+  

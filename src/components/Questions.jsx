@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { collection, getDocs } from "firebase/firestore"
-import { isValidElement, createElement } from 'react';
 import db from '../../firebase.config';
 
 
@@ -27,6 +26,8 @@ const Questions = () => {
   return (
     <>
       <div className='questions-container'>
+      <h2>Q&A</h2>
+
 
         {questions.map(question => {
           return (

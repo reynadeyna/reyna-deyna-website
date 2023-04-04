@@ -1,40 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Contacts from './components/Contacts'
-import Questions from './components/Questions'
-import './App.css'
+import Home from './pages/Home';
+import Music from './pages/Music';
+import Code from './pages/Code';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import GooBlob from './components/Metaball';
+import { BrowserRouter } from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
+import './styles/App.css';
+import blob from './assets/blob.mp4'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <>
+      <div className='main'>
+        {/* <div className='overlay'></div> */}
+        <video src={blob} autoPlay loop muted />
+
+        <div className='content'>
+          <BrowserRouter>
+            <Header />
+            <Navbar />
+            <GooBlob />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/code" element={<Code />} />
+              <Route path="/music" element={<Music />} />
+            </Routes>
+          </BrowserRouter>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      
-      </p>
-      <Contacts />
-      <Questions />
-    </div>
+    </>
   )
 }
 
