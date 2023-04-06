@@ -1,4 +1,5 @@
 import Home from './pages/Home';
+import About from './pages/About';
 import Music from './pages/Music';
 import Code from './pages/Code';
 import Navbar from './components/Navbar';
@@ -26,6 +27,7 @@ function App() {
             <GooBlob />
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path='about' element={<About />} />
               <Route path="/code" element={<Code />} />
               <Route path="/music" element={<Music />} />
             </Routes>

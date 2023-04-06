@@ -142,15 +142,18 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: crosshair;
   transition: border-color 0.25s;
   position: absolute;
+  filter: drop-shadow(0 0 2em #00ffeaaa);
+  color: #02777761;
+
 }
 
 button:hover {
-  border-color: #00ffeaaa;
+  border-color: #00ffea13;
   filter: drop-shadow(0 0 2em #00ffeaaa);
+  color: #00ffff3c;
 }
 
 button:focus,
@@ -165,7 +168,7 @@ button:focus-visible {
   }
 
   a:hover {
-    color: #747bff;
+    color: #00ffea38;
   }
 
   button {

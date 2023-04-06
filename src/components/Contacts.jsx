@@ -38,7 +38,7 @@ const Contacts = () => {
     }
 
     return (
-        <div className='questions-container'>
+        <div className='question-form'>
 
             <form onSubmit={handleSubmit}>
 
@@ -64,6 +64,7 @@ const Contacts = () => {
                 />
 
                 <button type="submit">Submit</button>
+
             </form>
         </div>
     )
