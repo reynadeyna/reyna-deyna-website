@@ -6,7 +6,7 @@ import tiktok from '../assets/media_icons/tiktok.svg'
 import twitter from '../assets/media_icons/twitter.svg'
 import youtube from '../assets/media_icons/youtube.svg'
 
-const Home = () => {
+const Angelware = () => {
 
     const [count, setCount] = useState(0)
 
@@ -35,19 +35,22 @@ const Home = () => {
                         <img src={twitter} className="logo" alt="Twitter logo" />
                     </a>
                     <p className="read-the-docs">
-                        Click on the links to listen on your desired platform.
+                        Click on the links to find me on your desired platform.
+                    </p>
+                    <p>
+                        My new single Fantasy will be out in July!
                     </p>
                 </div>
 
                 {/* L0v3 CONTAINER */}
-                <div className="lov3">
+                {/* <div className="lov3">
                     <button onClick={() => setCount((count) => count + 1)}>
                         Your LOv3 count is {count}
                     </button>
-                </div>
+                </div> */}
             </div>
         </>
     )
 }
 
-export default Home
+export default Angelware

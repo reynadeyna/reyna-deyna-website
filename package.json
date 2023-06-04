@@ -9,10 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.3",
     "@react-spring/web": "^9.7.1",
     "firebase": "^9.19.1",
     "firestore": "^1.1.6",
     "measure": "^0.1.1",
+    "nodemon": "^2.0.22",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",

@@ -26,9 +26,7 @@ const Questions = () => {
   return (
     <>
       <div className='questions-container'>
-      <h2>Q&A</h2>
-
-
+ 
         {questions.map(question => {
           return (
 

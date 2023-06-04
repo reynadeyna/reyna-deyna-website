@@ -1,9 +1,10 @@
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import About from './pages/About';
-import Music from './pages/Music';
+import Angelware from './pages/Angelware';
 import Code from './pages/Code';
 import Navbar from './components/Navbar';
-import Header from './components/Header';
+import AngelicBeats from './pages/AngelicBeats';
+// import Header from './components/Header';
 import GooBlob from './components/Metaball';
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from "react-router-dom";
@@ -22,14 +23,15 @@ function App() {
 
         <div className='content'>
           <BrowserRouter>
-            <Header />
+            {/* <Header /> */}
             <Navbar />
             <GooBlob />
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<Angelware />} />
               <Route path='about' element={<About />} />
               <Route path="/code" element={<Code />} />
-              <Route path="/music" element={<Music />} />
+              <Route path="/angelicbeats" element={<AngelicBeats />} />
+              {/* <Route path="/angelware" element={<Angelware />} /> */}
             </Routes>
           </BrowserRouter>
         </div>
