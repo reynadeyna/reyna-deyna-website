@@ -1,12 +1,44 @@
-import React from 'react'
+import React from "react";
 
 const AngelicBeats = () => {
   return (
-    <div className='about-container'>
-      <h1>Coming soon</h1>
-      <p>Cia ideti angelic Beats Coveri? Aprasyma? Kaip mano appse tam gal su widgetais? Idet proflio foto logo? Darbu video linkus i Youtube? Arba video kvadratukai kaip pas Chloe Ting, vedantys</p>
+    <div className="page-container">
+      <h1>Angelic Beats</h1>
+      <h3>✧✧✧</h3>
+
+      <div class="widget-container">
+
+        <div className="widget">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/YrS97gr5ydI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <h3>✧ listen to this everyday for magnetic aura ✧</h3>
+        <h3>✧✧✧</h3>
+        </div>
+
+        <div className="widget">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/b_41d9XyDYw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <h3>✧ unleash your inner goddess ✧</h3>
+        <h3>✧✧✧</h3>
+        </div>
+     
+      </div>
     </div>
   );
-}
+};
 
-export default AngelicBeats
+export default AngelicBeats;

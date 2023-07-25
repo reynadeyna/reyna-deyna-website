@@ -1,56 +1,28 @@
-import { useState } from 'react'
-import spotify from '../assets/media_icons/spotify.svg'
-import octocat from '../assets/media_icons/octocat.svg'
-import instagram from '../assets/media_icons/instagram.svg'
-import tiktok from '../assets/media_icons/tiktok.svg'
-import twitter from '../assets/media_icons/twitter.svg'
-import youtube from '../assets/media_icons/youtube.svg'
+import React from "react";
 
 const Angelware = () => {
+  return (
+    <div className="page-container">
+      <h1>Angelware</h1>
 
-    const [count, setCount] = useState(0)
+      <h3>✧✧✧</h3>
 
-    return (
-        <>
-            <div className='home-content-container'>
+      <div class="widget-container">
+        <div className="widget">
+          <h3>My singles Fantasy and Pukuciu will be out soon!</h3>
+        </div>
+        <div className="widget">
+          <h3>Mix1</h3>
+        </div>
+        <div className="widget">
+          <h3>Mix2</h3>
+        </div>
+        <div className="widget">
+          <h3>Mix3</h3>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-                {/* LINKS CONTAINER */}
-                <div className="links-container">
-                    <a href="https://spotify.com" target="_blank">
-                        <img src={spotify} className="logo" alt="Spotify logo" />
-                    </a>
-                    <a href="https://github.com/angelware10110" target="_blank">
-                        <img src={octocat} className="logo" alt="Github logo" />
-                    </a>
-                    <a href="https://github.com/angelware10110" target="_blank">
-                        <img src={instagram} className="logo" alt="Instagram logo" />
-                    </a>
-                    <a href="https://github.com/angelware10110" target="_blank">
-                        <img src={tiktok} className="logo" alt="TikTok logo" />
-                    </a>
-                    <a href="https://github.com/angelware10110" target="_blank">
-                        <img src={youtube} className="logo" alt="YouTube logo" />
-                    </a>
-                    <a href="https://github.com/angelware10110" target="_blank">
-                        <img src={twitter} className="logo" alt="Twitter logo" />
-                    </a>
-                    <p className="read-the-docs">
-                        Click on the links to find me on your desired platform.
-                    </p>
-                    <p>
-                        My new single Fantasy will be out in July!
-                    </p>
-                </div>
-
-                {/* L0v3 CONTAINER */}
-                {/* <div className="lov3">
-                    <button onClick={() => setCount((count) => count + 1)}>
-                        Your LOv3 count is {count}
-                    </button>
-                </div> */}
-            </div>
-        </>
-    )
-}
-
-export default Angelware
+export default Angelware;

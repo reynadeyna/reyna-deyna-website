@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useMediaQuery, IconButton, Box } from "@mui/material";
 import { Menu, Close } from "@mui/icons-material";
+import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   const [isMobileMenuToggled, setIsMobileMenuToggled] = useState(false);
@@ -11,48 +12,22 @@ const Navbar = () => {
     <>
       {/* DESKTOP NAV */}
       {isNonMobileScreens ? (
-        <nav className="nav">
-          <ul>
-            <li className="active">
-              <Link to="/about" className="nav-links">
-                {" "}
-                A B O U T {" "}
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/angelicbeats" className="nav-links"
-              >
-                A N G E L I C <br/> B E A T S
-              </Link>
-            </li>
-            <li>
-              <Link to="/" className="nav-links">
-                {" "}
-                A N G E L W A R E{" "}
-              </Link>
-            </li>
-            <li>
-              <Link to="/code" className="nav-links">
-                {" "}
-                C O D 3{" "}
-              </Link>
-            </li>
-          </ul>
-        </nav>
+        <NavLinks />
       ) : (
-        <Box position="fixed" margin="1rem" zIndex="10">
+        <Box position="fixed" margin="1rem" right="0" zIndex="10">
           <IconButton
             onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
           >
-            <Menu className="icons" sx={{ fontSize: 40 }} />
+            <Menu sx={{ fontSize: 40, color: "white" }} />
           </IconButton>
         </Box>
       )}
 
       {/* MOBILE NAV */}
+
       {!isNonMobileScreens && isMobileMenuToggled && (
         <Box
+          className="nav-mobile"
           position="fixed"
           right="0"
           bottom="0"
@@ -67,63 +42,18 @@ const Navbar = () => {
               onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
             >
               <Close
-                className="icons"
                 position="fixed"
                 zIndex="10"
                 margin="1rem"
-                // right="0"
-                // bottom="0"
-                // height="100%"
-                sx={{ fontSize: 40 }}
+                sx={{ fontSize: 40, color: "white" }}
               />
             </IconButton>
           </Box>
 
           {/* MENU ITEMS */}
 
-          <nav className="nav-mobile">
-            <ul>
-              <li className="active">
-                <Link
-                  onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/about"
-                  className="nav-links"
-                >
-                  {" "}
-                  A B O U T{" "}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/angelicbeats"
-                  className="nav-links"
-                > 
-                A N G E L I C <br/> B E A T S
-                </Link>
-              </li>
-              <li>
-                <Link
-                  onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/"
-                  className="nav-links"
-                >
-                  {" "}
-                  A N G E L W A R E{" "}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/code"
-                  className="nav-links"
-                >
-                  {" "}
-                  C O D 3{" "}
-                </Link>
-              </li>
-            </ul>
-          </nav>
+          <NavLinks />
+
         </Box>
       )}
     </>

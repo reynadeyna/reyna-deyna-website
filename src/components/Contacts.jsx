@@ -1,20 +1,19 @@
 import { useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
 import db from "../../firebase.config";
-import { InputBase } from "@mui/material";
 
 const Contacts = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // console.log(name, email, message)
+  console.log(name, email, message)
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (name === "" || email === "" || message === "") {
-      alert("empty fields");
+      alert("girl your fields are empty");
       return;
     }
     try {
@@ -37,26 +36,29 @@ const Contacts = () => {
   return (
     <div>
         <div>
-            <h2>Ask me anything</h2>
+            <h1>Ask me anything</h1>
         </div>
 
       <form onSubmit={handleSubmit}>
-        <InputBase
-          justifyContent="center"
-          type="text"
-          value={name}
-          placeholder="Enter your name"
-          onChange={(e) => setName(e.target.value)}
-        />
 
-        <InputBase
+        <input 
+        className="input"
+        type="text"
+        value={name}
+        placeholder="Enter your name"
+        onChange={(e) => setName(e.target.value)}
+         />
+
+        <input
+          className="input"
           type="email"
           value={email}
           placeholder="Enter your email"
           onChange={(e) => setEmail(e.target.value)}
         />
 
-        <InputBase
+        <input
+          className="input"
           type="text"
           value={message}
           placeholder="Enter your message"

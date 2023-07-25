@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const Code = () => {
   return (
-    <div className='about-container'>
-      <h1>Coming soon</h1>
-      <p>Cia irgi ideti linkucius i savo 2 darbus pvz arrba dar 1 padaryt web3</p>
+    <div className="page-container">
+      <h1>Code</h1>
+      <h3>✧✧✧</h3>
     </div>
   );
-}
+};
 
-export default Code
+export default Code;
