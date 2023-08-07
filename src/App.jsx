@@ -49,7 +49,7 @@ function App() {
             <GooBlob />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path='about' element={<About />} />
+              <Route path="/about" element={<About />} />
               <Route path="/code" element={<Code />} />
               <Route path="/angelicbeats" element={<AngelicBeats />} />
               <Route path="/angelware" element={<Angelware />} />
