@@ -65,20 +65,20 @@ const Home = () => {
               </li>
               <li>
                 <Link
-                  to="/manifesto"
-                  className="home-nav-link"
-                >
-                  {" "}
-                  BIMBO✧INDIGO<br />MANIFESTO{" "}
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/shop"
                   className="home-nav-link"
                 >
                   {" "}
                   SHOP{" "}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/manifesto"
+                  className="home-nav-link"
+                >
+                  {" "}
+                  BIMBO✧INDIGO<br />MANIFESTO{" "}
                 </Link>
               </li>
             </ul>
