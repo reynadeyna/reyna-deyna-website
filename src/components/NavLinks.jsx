@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 const NavLinks = () => {
   return (
     <div>
-        <nav className="nav" data-lenis-prevent>
+        <nav className="nav" 
+        // data-lenis-prevent
+        >
             <ul>
             <li>
                 <Link
