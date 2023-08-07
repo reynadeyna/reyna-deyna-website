@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     <div className="footer">
-        <h3>Designed and Built by Angelware</h3>
+        <h5>Designed and Built by Angelware</h5>
     </div>
   )
 }

@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
-
 const NavLinks = () => {
+
   return (
     <div>
         <nav className="nav" 
-        // data-lenis-prevent
+        data-lenis-prevent
         >
             <ul>
             <li>
@@ -60,21 +60,21 @@ const NavLinks = () => {
               <li>
                 <Link
                   onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/manifesto"
-                  className="nav-links"
-                >
-                  {" "}
-                  M A N I F E S T O  <br />  B I M B O ✧ I N D I G O {" "}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
                   to="/shop"
                   className="nav-links"
                 >
                   {" "}
                   S H O P {" "}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
+                  to="/manifesto"
+                  className="nav-links"
+                >
+                  {" "}
+                  M A N I F E S T O  <br />  B I M B O ✧ I N D I G O {" "}
                 </Link>
               </li>
             </ul>

@@ -107,6 +107,13 @@ h4 {
   color: rgb(255, 255, 255);
 }
 
+/*MATRIX NORMAL*/
+h5 {
+  font-size: 1.5rem;
+  font-family: "VT323", monospace;
+  color: var(--clr-font2);
+}
+
 .main {
   width: 100%;
   height: 100vh;
@@ -157,6 +164,7 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 0px;
   list-style-type: none;
+  margin-top: 4rem;
 }
 
 .page-container {
@@ -232,8 +240,8 @@ Navbar
   right: 0;
   position: fixed;
   z-index: 1;
-  margin-top: 0.5rem;
-  margin-left: 5rem;
+  /* margin-top: 2rem;
+  margin-left: 5rem; */
   opacity: 90%;
   filter: drop-shadow(0 0 2em #ffffff);
   max-height: 100%;
@@ -260,7 +268,6 @@ Navbar
   transition: filter 300ms;
   color: var(--clr-font-dark-pink);
   filter: drop-shadow(0 0 2em var(--clr-white));
-  /* background-color: #f9f9f9b2; */
   border-radius: 8px;
   border: 1px solid transparent;
   cursor: crosshair;
