@@ -6,6 +6,7 @@ import AngelicBeats from './pages/AngelicBeats';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Manifesto from './pages/Manifesto';
+import Shop from './pages/Shop';
 import GooBlob from './components/Metaball';
 import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from "react-router-dom";
@@ -53,6 +54,7 @@ function App() {
               <Route path="/angelicbeats" element={<AngelicBeats />} />
               <Route path="/angelware" element={<Angelware />} />
               <Route path="/manifesto" element={<Manifesto />} />
+              <Route path="/shop" element={<Shop />} />
             </Routes>
             <Footer />
           </BrowserRouter>

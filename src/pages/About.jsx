@@ -15,12 +15,12 @@ const About = () => {
       <h3>✧✧✧</h3>
 
       <div class="widget-container">
-        <div className="matrix-widget">
-          <h2>
+        <div className="widget">
+          <h3>
             I created this website to gather my created assets in one place.
             Here you will find my music, dj mixes, sound works, coded projects,
             and bimbo indigo manifesto. Web is being updated.
-          </h2>
+          </h3>
         </div>
         <div className="widget">
           <h3>

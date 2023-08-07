@@ -72,6 +72,15 @@ const Home = () => {
                   BIMBO✧INDIGO<br />MANIFESTO{" "}
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/shop"
+                  className="home-nav-link"
+                >
+                  {" "}
+                  SHOP{" "}
+                </Link>
+              </li>
             </ul>
 
           </div>

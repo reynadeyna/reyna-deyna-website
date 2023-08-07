@@ -1,5 +1,5 @@
 
-const Manifesto = () => {
+const Shop = () => {
   return (
     <div className="page-container">
       <h1>Coming soon</h1>
@@ -8,4 +8,4 @@ const Manifesto = () => {
   );
 };
 
-export default Manifesto;
+export default Shop;

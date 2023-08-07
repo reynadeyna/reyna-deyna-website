@@ -6,6 +6,16 @@ const NavLinks = () => {
     <div>
         <nav className="nav" data-lenis-prevent>
             <ul>
+            <li>
+                <Link
+                  onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
+                  to="/"
+                  className="nav-links"
+                >
+                  {" "}
+                  ꧁꧂{" "}
+                </Link>
+              </li>
               <li>
                 <Link
                   onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
@@ -58,11 +68,11 @@ const NavLinks = () => {
               <li>
                 <Link
                   onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/"
+                  to="/shop"
                   className="nav-links"
                 >
                   {" "}
-                  ꧁꧂{" "}
+                  S H O P {" "}
                 </Link>
               </li>
             </ul>

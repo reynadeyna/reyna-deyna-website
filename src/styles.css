@@ -44,6 +44,7 @@ body {
   --clr-white: #fff;
   --clr-font: rgb(197, 134, 129);
   --clr-font-dark-pink: rgb(95, 18, 72);
+  --clr-font-light-green:rgb(116, 106, 70);
   --clr-shadow: rgb(255, 255, 255);
   --transition: all 0.9s linear;
   --spacing: 0.25rem;
@@ -72,32 +73,30 @@ h6 {
   letter-spacing: var(--spacing);
   line-height: 2;
   margin-bottom: 0.75rem;
-  color: var(--clr-font2);
-  /* filter: drop-shadow(0 0 2em var(--clr-shadow));  */
+  color: var(--clr-font-light-green);
 }
 
 /*BEAUTY MAIN*/
 h1 {
   font-size: 2rem;
   font-family: "TAN PEARL", sans-serif;
-  color: var(--clr-font-dark-pink);
+  color: var(--clr-font2);
 }
 
 /*MATRIX*/
 h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: "VT323", monospace;
-  line-height: 1;
   background-color: #0f3a0b;
   color: rgb(193, 255, 101);
-  /* filter: drop-shadow(16px 16px 20px rgb(133, 118, 147)); */
+  filter: drop-shadow(16px 16px 16px rgb(218, 255, 105));
 }
 
 /*BEAUTY SMALLER*/
 h3 {
   font-size: 1.2rem;
   font-family: "TAN PEARL", sans-serif;
-  color: var(--clr-font-dark-pink);
+  color: var(--clr-font2);
 }
 
 /*FUTURISTIC WHITE*/
@@ -483,6 +482,7 @@ Footer
   width: 100%;
   padding: 1rem;
   box-sizing: border-box;
+  font-family: "VT323", monospace;
 }
 
 /*

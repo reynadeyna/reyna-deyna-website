@@ -41,7 +41,7 @@ const Navbar = () => {
             <IconButton
               onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
             >
-              <Close
+              <Menu
                 position="fixed"
                 zIndex="10"
                 margin="1rem"
