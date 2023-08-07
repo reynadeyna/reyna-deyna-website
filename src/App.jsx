@@ -38,7 +38,7 @@ function App() {
       <div className='main'>
         <div className='bg1'><img src={bg1} /></div>
         <div className='bg2'><img src={bg2} /></div>
-        <video src={w} autoplay loop muted />
+        <video src={w} autoPlay loop muted />
         </div>
 
         <div className='content'>
