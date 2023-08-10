@@ -1,40 +1,31 @@
 import Contacts from "../components/Contacts";
 import Questions from "../components/Questions";
-import { Box, useMediaQuery } from "@mui/material";
 
 const About = () => {
-  const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
 
   return (
     <div className="page-container">
       {/* ABOUT ME CONTAINER */}
 
       <h1>
-        Hi, <br /> This is Angelware{" "}
+        Hi, <br /> This is Angelware
       </h1>
       <h3>✧✧✧</h3>
 
       <div class="widget-container">
+        {/* <div className="widget">
+          <h3>
+            I created this website to gather my created assets.
+            Here you will find my music, dj mixes, sounds and coded projects.
+            The website is in production mode but is being constantly updated with the latest news.          
+          </h3>
+        </div> */}
         <div className="widget">
           <h3>
-            I created this website to gather my created assets in one place.
-            Here you will find my music, dj mixes, sound works, coded projects,
-            and bimbo indigo manifesto. Web is being updated.
+            Coming soon
           </h3>
         </div>
-        <div className="widget">
-          <h3>
-            I am creating electronic pop songs - writing lyrics, producing,
-            performing and engineering. Now I am getting back on decks as a DJ
-            and giving some psychedelic, ethereal, progressive, trance-like,
-            melodic electronic music. Now I am getting back on decks as a DJ
-            and giving some psychedelic, ethereal, progressive, trance-like,
-            melodic electronic music. Now I am getting back on decks as a DJ
-            and giving some psychedelic, ethereal, progressive, trance-like,
-            melodic electronic music.
-          </h3>
-        </div>
-
+{/* 
         <div className="widget">
           <h3>
             I am also composing and creating sound design as Angelic Beats:
@@ -69,13 +60,15 @@ const About = () => {
             SoundCloud. All the albums and performances by Reyna Deyna are still
             up.
           </h3>
-        </div>
+        </div> */}
 
-        <div className="widget">
+        {/* <div className="widget">
           <h3>
-            I'd love to talk at neo@angelware.xyz Or, ask me a question here:
+            I'd love to talk at rugile @
+            protonmail.com 
+            or ask me a question here:
           </h3>
-        </div>
+        </div> */}
 
         {/* Questions CONTAINER */}
 
@@ -86,11 +79,9 @@ const About = () => {
         </div>
 
         {/* Q&A CONTAINER */}
-        <div className="widget">
-          <div className="questions-container">
+
             <Questions />
-          </div>
-        </div>
+
       </div>
     </div>
   );

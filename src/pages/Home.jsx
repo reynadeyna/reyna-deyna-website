@@ -34,7 +34,7 @@ const Home = () => {
                   className="home-nav-link"
                 >
                   {" "}
-                  ABOUT{" "}
+                  ABOUT & AMA{" "}
                 </Link>
               </li>
               <li>

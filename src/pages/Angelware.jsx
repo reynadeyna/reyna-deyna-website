@@ -9,17 +9,17 @@ const Angelware = () => {
 
       <div class="widget-container">
         <div className="widget">
-          <h3>My singles Fantasy and Pukuciu will be out soon!</h3>
+          <h3>My singles Fantasy and Pukuciu will be out soon</h3>
         </div>
         <div className="widget">
-          <h3>Mix1</h3>
+          <h3>111 years of djing anniversary 11 mixes here soon</h3>
         </div>
-        <div className="widget">
+        {/* <div className="widget">
           <h3>Mix2</h3>
         </div>
         <div className="widget">
           <h3>Mix3</h3>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const Contacts = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  console.log(name, email, message)
+  // console.log(name, email, message)
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -37,6 +37,8 @@ const Contacts = () => {
     <div>
         <div>
             <h1>Ask me anything</h1>
+            <h6>your email remains confidential and visible solely to authorized angelware</h6>
+
         </div>
 
       <form onSubmit={handleSubmit}>
@@ -64,7 +66,6 @@ const Contacts = () => {
           placeholder="Enter your message"
           onChange={(e) => setMessage(e.target.value)}
         />
-
         <div className="question-form">
           <button type="submit">Submit</button>
         </div>

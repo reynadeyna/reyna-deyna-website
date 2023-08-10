@@ -25,7 +25,7 @@ const NavLinks = () => {
                   className="nav-links"
                 >
                   {" "}
-                  A B O U T{" "}
+                  & A M A <br />  A B O U T {" "}
                 </Link>
               </li>
               <li>
