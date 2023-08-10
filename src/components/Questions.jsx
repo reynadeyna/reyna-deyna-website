@@ -33,7 +33,7 @@ const Questions = () => {
                 <div key={questions.id}>
                       <h3>{question.client_name}:</h3>
                       <h3>{question.client_message}</h3>
-                      <h2>・.・゜・。.・✳・.・゜・。.・</h2>
+                      <h2>・.・゜・。.・・.・゜・。.・</h2>
                       <h3>Angelware:</h3>
                       <h3>{question.my_answer}</h3>
 
