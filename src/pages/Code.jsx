@@ -9,13 +9,13 @@ const Code = () => {
       <div class="widget-container">
 
       <div className="matrix-widget">
-      <a href="https://queenevents.vercel.app/" target="_blank">
+      <a href="https://event-client-kappa.vercel.app" target="_blank">
       <h4>Social Media</h4>
       <h2>social networking service to post and find events</h2>
         <iframe
           width="560"
           height="315"
-          src="https://queenevents.vercel.app/"
+          src="https://event-client-kappa.vercel.app"
           frameborder="0"
         ></iframe>
         <h2>vite js node.js express.js <br /> jsonwebtoken bcrypt redux yup <br />  material-ui tiptap formik<br />  mongoDB</h2>
