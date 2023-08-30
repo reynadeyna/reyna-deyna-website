@@ -19,6 +19,7 @@ const Code = () => {
           frameborder="0"
         ></iframe>
         <h2>vite js node.js express.js <br /> jsonwebtoken bcrypt redux yup <br />  material-ui tiptap formik<br />  mongoDB</h2>
+        <h2>user auth, like, edit, delete,<br /> post, filter, search,<br /> choose values, dark mode, add user ...</h2>
         </a>
         </div>
 
@@ -33,6 +34,7 @@ const Code = () => {
           frameborder="0"
         ></iframe>
         <h2>react js redux css</h2>
+        <h2>carousele, add to cart,<br /> count totals, count amount ...</h2>
         </a>
         </div>
      

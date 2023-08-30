@@ -11,15 +11,35 @@ const Angelware = () => {
         <div className="widget">
           <h3>My singles Fantasy and Pukuciu will be out soon</h3>
         </div>
+
         <div className="widget">
-          <h3>111 years of djing anniversary 11 mixes here soon</h3>
+        <iframe
+          width="560"
+          height="315"
+          src="https://youtu.be/BYxUoFrB-q8?si=3YoQ6gaGrg54lSGL"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <h3>✧ Ambient IDM for Coding & Hacking ✧</h3>
+        <h3>✧✧✧</h3>
         </div>
-        {/* <div className="widget">
-          <h3>Mix2</h3>
-        </div>
+
         <div className="widget">
-          <h3>Mix3</h3>
-        </div> */}
+        <iframe
+          width="560"
+          height="315"
+          src="https://youtu.be/cR1K1nYKI9U?si=XRxdKnexbtyjWZ0e"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <h3>✧ Mystic Psychedelic Chillout ✧</h3>
+        <h3>✧✧✧</h3>
+        </div>
+ 
       </div>
     </div>
   );
