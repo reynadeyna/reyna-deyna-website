@@ -71,6 +71,15 @@ const Home = () => {
                   AMA{" "}
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/"
+                  className="home-nav-link"
+                >
+                  {" "}
+                  ꧁꧂{" "}
+                </Link>
+              </li>
             
             </ul>
           </div>
