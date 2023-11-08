@@ -16,9 +16,7 @@ const About = () => {
     in Audio Engineering and Production. For me, the beauty of sound is not only
     psychological or societal. As much as I do not want, I sometimes probably love
     the physics of it more. I was warned that once I step into it, I will
-    never hear music the same way again. I miss the old times when I could
-    just feel it in my whole heart, blast my ears, but maybe I was just
-    a teen. However, I deeply understand the significance of sound in
+    never hear music the same way again. However, I deeply understand the significance of sound in
     our lives, recognizing its remarkable ability to heal, uplift, and
     connect us on a profound level.
     <br />
