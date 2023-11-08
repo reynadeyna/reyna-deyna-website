@@ -1,8 +1,4 @@
-import Contacts from "../components/Contacts";
-import Questions from "../components/Questions";
-
 const About = () => {
-
   return (
     <div className="page-container">
       {/* ABOUT ME CONTAINER */}
@@ -13,74 +9,46 @@ const About = () => {
       <h3>✧✧✧</h3>
 
       <div class="widget-container">
-        {/* <div className="widget">
-          <h3>
-            I created this website to gather my created assets.
-            Here you will find my music, dj mixes, sounds and coded projects.
-            The website is in production mode but is being constantly updated with the latest news.          
-          </h3>
-        </div> */}
-        <div className="widget">
-          <h3>
-            Coming soon
-          </h3>
-        </div>
-{/* 
-        <div className="widget">
-          <h3>
-            I am also composing and creating sound design as Angelic Beats:
-            music for meditation and healing, subliminals and affirmations. I
-            deeply understand the significance of sound in our lives,
-            recognizing its remarkable ability to heal, uplift, and connect us
-            on a profound level. By creating every piece, I embark on a journey
-            of sonic exploration, carefully selecting frequencies that resonate
-            with the essence of healing and transformation. By harnessing the
-            subtle nuances of different tones and textures, I aim to evoke a
-            desired emotional response. I believe in Solar Punk futuristic 
-            human setting.
-          </h3>
-        </div>
-
-        <div className="widget">
-          <h3>
-            I was awarded a degree in Sound Engineering and Production.
-            Currently I am studying Computer Science and I love to code. I was
-            based in Berlin, Los Angeles and Lithuania. The next destination is
-            unknown. I was awarded a degree in Sound Engineering and Production.
-            Currently I am studying Computer Science and I love to code. I was
-            based in Berlin, Los Angeles and Lithuania. The next destination is
-            unknown.
-          </h3>
-        </div>
-
-        <div className="widget">
-          <h3>
-            Transforming from Reyna Deyna. Before, since 15yo I was a DJ - my
-            early mixes as Rugile and the latest as Reyna Deyna are archived on
-            SoundCloud. All the albums and performances by Reyna Deyna are still
-            up.
-          </h3>
-        </div> */}
-
-        {/* <div className="widget">
-          <h3>
-            I'd love to talk at rugile @
-            protonmail.com 
-            or ask me a question here:
-          </h3>
-        </div> */}
-
-        {/* Questions CONTAINER */}
-
-        <div className="widget">
-          <div className="question-form">
-            <Contacts />
-          </div>
-        </div>
-
-        {/* Q&A CONTAINER */}
-
-            <Questions />
+      <div className="widget">
+  <h3>
+    Previously known as Reyna Deyna or DJ Rugile, my sounds
+    are archived online. Good music and sound design are my life. I was awarded a degree 
+    in Audio Engineering and Production. For me, the beauty of sound is not only
+    psychological or societal. As much as I do not want, I sometimes probably love
+    the physics of it more. I was warned that once I step into it, I will
+    never hear music the same way again. I miss the old times when I could
+    just feel it in my whole heart, blast my ears, but maybe I was just
+    a teen. However, I deeply understand the significance of sound in
+    our lives, recognizing its remarkable ability to heal, uplift, and
+    connect us on a profound level.
+    <br />
+    <br />
+    <br />
+    My other obsession is Computer Science. I was learning web development full
+    stack and still coding some projects. Currently, I am studying
+    Artificial Intelligence, Machine Learning, and Deep Learning. I believe in
+    a Solar Punk futuristic human setting. I wish our civilization will be free from
+    greedy entities and not leave Earth in flames. I know, in my
+    delufesto, I am saying that we live in a simulated reality; however,
+    we are here and we must care for what's 'real' here. We just cannot be
+    knowing that one can live off others' suffering or invade their privacy, no matter
+    what material.
+    <br />
+    <br />
+    <br />
+    I was lucky enough to be introduced to building modular synthesizers by my friend.
+    It is quite a part of my life too, and hopefully, I will share more of it as entertainment.
+    But for now, it is listed online for those interested in getting some.
+    <br />
+    <br />
+    <br />
+    Thank you for visiting, and have the most beautiful day, Angel.
+    <br />
+    <br />
+    <br />
+    ♡
+  </h3>
+</div>
 
       </div>
     </div>

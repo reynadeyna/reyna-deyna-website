@@ -10,7 +10,8 @@ const Home = () => {
     <>
     <div className="page-container">
 
-      <h1>ANGELWARE</h1>
+      <h1>GREETINGS ANGEL</h1>
+      <h3>follow to the external source or stay here with me</h3>
 
 
       {/* DESKTOP HOME */}
@@ -26,65 +27,53 @@ const Home = () => {
 
           <Links />
 
+          <h3>or stay here with me</h3>
+
+
+
           <div className="home-nav-links-container">
+
             <ul>
+            
+              <li>
+                <Link
+                  to="/delufesto"
+                  className="home-nav-link"
+                >
+                  {" "}
+                  DELUFESTO{" "}
+                </Link>
+              </li>
               <li>
                 <Link
                   to="/about"
                   className="home-nav-link"
                 >
                   {" "}
-                  ABOUT & AMA{" "}
+                  HI{" "}
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/angelware"
+                  to="/music"
                   className="home-nav-link"
                 >
                   {" "}
-                  ANGELWARE{" "}
+                  MUSIC{" "}
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/code"
+                  to="/ama"
                   className="home-nav-link"
                 >
                   {" "}
-                  COD3{" "}
+                  AMA{" "}
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/angelicbeats"
-                  className="home-nav-link"
-                >
-                  ANGELIC<br />BEATS
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/shop"
-                  className="home-nav-link"
-                >
-                  {" "}
-                  SHOP{" "}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/manifesto"
-                  className="home-nav-link"
-                >
-                  {" "}
-                  BIMBO✧INDIGO<br />MANIFESTO{" "}
-                </Link>
-              </li>
+            
             </ul>
-
           </div>
-
         </Box>
       )}
       </div>

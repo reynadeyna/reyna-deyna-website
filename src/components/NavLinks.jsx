@@ -25,58 +25,40 @@ const NavLinks = () => {
                   className="nav-links"
                 >
                   {" "}
-                  & A M A <br />  A B O U T {" "}
+                  H I{" "}
                 </Link>
               </li>
               <li>
                 <Link
                   onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/angelware"
+                  to="/delufesto"
                   className="nav-links"
                 >
                   {" "}
-                  A N G E L W A R E{" "}
+                  D E L U F E S T O{" "}
                 </Link>
               </li>
               <li>
                 <Link
                   onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/code"
+                  to="/music"
                   className="nav-links"
                 >
                   {" "}
-                  C O D 3{" "}
+                  M U S I C{" "}
                 </Link>
               </li>
               <li>
                 <Link
                   onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/angelicbeats"
-                  className="nav-links"
-                >
-                  B E A T S<br /> A N G E L I C
-                </Link>
-              </li>
-              <li>
-                <Link
-                  onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/manifesto"
+                  to="/ama"
                   className="nav-links"
                 >
                   {" "}
-                  M A N I F E S T O  <br />  B I M B O ✧ I N D I G O {" "}
+                  A M A {" "}
                 </Link>
               </li>
-              <li>
-                <Link
-                  onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
-                  to="/shop"
-                  className="nav-links"
-                >
-                  {" "}
-                  S H O P {" "}
-                </Link>
-              </li>
+
             </ul>
           </nav>
     </div>
