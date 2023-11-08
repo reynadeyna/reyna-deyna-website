@@ -59,9 +59,16 @@ const NavLinks = () => {
                 </Link>
               </li>
               <li>
-              {" "}
+                <Link
+                  onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)}
+                  to="/"
+                  className="nav-links"
+                >
+                  {" "}
                   ꧁꧂{" "}
+                </Link>
               </li>
+          
 
             </ul>
           </nav>
