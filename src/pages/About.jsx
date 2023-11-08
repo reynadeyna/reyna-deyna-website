@@ -26,11 +26,9 @@ const About = () => {
     stack and still coding some projects. Currently, I am studying
     Artificial Intelligence, Machine Learning, and Deep Learning. I believe in
     a Solar Punk futuristic human setting. I wish our civilization will be free from
-    greedy entities and not leave Earth in flames. I know, in my
-    delufesto, I am saying that we live in a simulated reality; however,
-    we are here and we must care for what's 'real' here. We just cannot be
+    greedy entities and not leave Earth in flames. We just cannot be
     knowing that one can live off others' suffering or invade their privacy, no matter
-    what material.
+    what materia.
     <br />
     <br />
     <br />
