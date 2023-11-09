@@ -11,7 +11,7 @@ const Home = () => {
     <div className="page-container">
 
       <h1>GREETINGS ANGEL</h1>
-      <h3>follow to the external source or stay here with me</h3>
+      {/* <h3>follow to the external source or stay here with me</h3> */}
 
 
       {/* DESKTOP HOME */}
@@ -27,7 +27,7 @@ const Home = () => {
 
           <Links />
 
-          <h3>or stay here with me</h3>
+          {/* <h3>or stay here with me</h3> */}
 
 
 

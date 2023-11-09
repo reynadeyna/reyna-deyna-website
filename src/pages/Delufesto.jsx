@@ -20,26 +20,32 @@ const Delufesto = () => {
         </div> */}
         <div className="widget">
           <h3>
-            - 「 Your memory has contracted to become stronger. - 「 Your body
+            - 「 Your memory has contracted to become stronger. 」 - 「 Your body
             has grown thicker, making it tough to move. 」 - 「 Your nail extensions seems
             to have become a 『sword』. 」 - 「 You're actually stronger than a
             God, you know. 」 - 「 What are you saying…… You're in perfect form.
             」 - 「 God, huh. This is just fine too. 」 - 「 That's so…… I see,
-            so it's like a daydream. 」 - 「 It's so like Angelware's FANATSY! 」
+            so it's like a daydream. 」 - 「 It's so like Angelware's Fantasy. 」
           </h3>
         </div>
-        <div className="widget">
+        {/* <div className="widget">
           <h3>
             I am here to spit fire.
             Catch me on this frequency range.
             I killed the flames from the fire.
             Can I keep fight and not loose a life?
           </h3>
-        </div>
-        <div className="widget">
+        </div> */}
+        {/* <div className="widget">
           <h3>
             People asking if I am okay people be asking me to throw my phone out.
             Like, why would you consume me now? Like, do I confuse you?
+          </h3>
+        </div> */}
+        <div className="widget">
+          <h3>
+          I found myself standing somewhere new, I examined my transformed body.
+          This world was undoubtedly one of mystique, where the limitations of my human form were no longer relevant.
           </h3>
         </div>
         <div className="widget">
@@ -51,7 +57,8 @@ const Delufesto = () => {
             <br />
             They weave a concern, a reminder that the journey continues.
             Meanwhile, the digital hum drums on, urging me to cast away my
-            device.
+            device.  - 「 Like, why would you consume me now? Like, do I confuse you?  」
+
           </h3>
         </div>
         <div className="widget">
@@ -67,13 +74,12 @@ const Delufesto = () => {
             In that suspended moment, destiny had deemed my story unfinished.
             <br />
             Between life and beyond, I tasted the essence of mortality, only to
-            be reborn as a deity of my own destiny, draped in the hues of..
-            Bimbo indigo power.
+            be reborn as a deity of my own destiny, draped in the hues of Bimbo Indigo power.
           </h3>
         </div>
         <div className="widget">
           <h3>
-          Behold!! as I stride back into the world, a phoenix arisen from the ashes of doubt and despair. With every step, I exude the aura of a goddess, fierce and unapologetic, a living testament to the strength that resides within.
+          Behold as I stride back into the world, a phoenix arisen from the ashes of doubt and despair. With every step, I exude the aura of a goddess, fierce and unapologetic, a living testament to the strength that resides within.
           </h3>
         </div>
         <div className="widget">
@@ -89,13 +95,13 @@ Their words wash over me like a symphony of recognition, affirming my return to 
         </div>
         <div className="widget">
           <h3>
-          CAN I BE FREE? CAN I HANDLE THE TRUTH???
+          CAN I BE FREE? CAN I HANDLE THE TRUTH?
           </h3>
         </div>
         <div className="widget">
           <h3>
           Look, In this manifesto of Bimbo Indigo resurgence, I honor the boundless continuity of my existence. The goddess, the Bimbo, the Bimbo Indigo!
-As I reclaim my place in this world, I embrace my inner goddess, a fearless embodiment of power and possibility. I embrace my intuition and speed of my unlimited mind.
+          As I reclaim my place in this world, I embrace my inner goddess, a fearless embodiment of power and possibility. I embrace my intuition and speed of my unlimited mind.
           </h3>
         </div>
         <div className="widget">
