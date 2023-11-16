@@ -24,8 +24,7 @@ const About = () => {
     <br />
     My other obsession is Computer Science. I was learning web development full
     stack and still coding some projects. Currently, I am studying
-    Artificial Intelligence, Machine Learning, and Deep Learning. I believe in
-    a Solar Punk futuristic human setting. I wish our civilization will be free from
+    Artificial Intelligence. I believe in a Solar Punk futuristic human setting. I wish our civilization will be free from
     greedy entities and not leave Earth in flames. We just cannot be
     knowing that one can live off others' suffering or invade their privacy, no matter
     what materia.
