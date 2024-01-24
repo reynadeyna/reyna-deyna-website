@@ -7,15 +7,14 @@ const Contacts = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // console.log(name, email, message)
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (name === "" || email === "" || message === "") {
-      alert("girl your fields are empty");
+      alert("All fields must be filled out.");
       return;
     }
+
     try {
       const docRef = await addDoc(collection(db, "contacts"), {
         client_name: name,
@@ -34,25 +33,29 @@ const Contacts = () => {
   };
 
   return (
-    <div>
-        <div>
-            <h1>Ask me anything</h1>
-            <h6>your email remains confidential and visible solely to authorized angelware</h6>
+    <div className="text-white">
+      <div>
+        <h1>Ask me anything</h1>
+        <h6>
+          Your email remains confidential and visible solely to authorized
+          Angelware
+        </h6>
+      </div>
 
-        </div>
-
-      <form onSubmit={handleSubmit}>
-
-        <input 
-        className="input"
-        type="text"
-        value={name}
-        placeholder="Enter your name"
-        onChange={(e) => setName(e.target.value)}
-         />
+      <form
+        onSubmit={handleSubmit}
+        className="question-form flex flex-col items-center mt-7"
+      >
+        <input
+          className="border rounded-full border-f1f5f8 py-2 shadow-drop placeholder-font2 text-center text-font2 hover:border-bafff9aa hover:shadow-00ffeaaa mb-4"
+          type="text"
+          value={name}
+          placeholder="Enter your name"
+          onChange={(e) => setName(e.target.value)}
+        />
 
         <input
-          className="input"
+          className="border rounded-full border-f1f5f8 py-2 shadow-drop placeholder-font2 text-center text-font2 hover:border-bafff9aa hover:shadow-00ffeaaa mb-4"
           type="email"
           value={email}
           placeholder="Enter your email"
@@ -60,16 +63,19 @@ const Contacts = () => {
         />
 
         <input
-          className="input"
+          className="border rounded-full border-f1f5f8 py-2 shadow-drop placeholder-font2 text-center text-font2 hover:border-bafff9aa hover:shadow-00ffeaaa mb-8"
           type="text"
           value={message}
           placeholder="Enter your message"
           onChange={(e) => setMessage(e.target.value)}
         />
-        <div className="question-form">
-          <button type="submit">Submit</button>
-        </div>
 
+        <button
+          type="submit"
+          className="rounded-md border border-transparent p-3 text-base cursor-crosshair transition duration-250 shadow-drop hover:border-00ffea13 hover:shadow-00ffeaaa"
+        >
+          Submit
+        </button>
       </form>
     </div>
   );
