@@ -41,7 +41,7 @@ const Navbar = () => {
           menuOpen ? "" : "hidden"
         }`}
       >
-        <div className=" p-8 w-full h-full flex items-center justify-center">
+        <div className=" p-8 w-full h-full flex items-center justify-center mt-16">
           <ul className="flex flex-col items-center gap-11 mt-10">
             <li className="text-white border rounded-full px-16 py-2">
               <Link onClick={closeMenu} to="/" className="text-white">
