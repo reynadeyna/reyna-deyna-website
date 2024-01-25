@@ -35,11 +35,11 @@ const Delufesto = () => {
               <br />
               <br />
               <br />
-              People asking if I am okay people be asking me to throw my phone
+              {/* People asking if I am okay people be asking me to throw my phone
               out. Like, why would you consume me now? Like, do I confuse you?
               <br />
               <br />
-              <br />
+              <br /> */}
               I found myself standing somewhere new, I examined my transformed
               body. This world was undoubtedly one of mystique, where the
               limitations of my human form were no longer relevant.
