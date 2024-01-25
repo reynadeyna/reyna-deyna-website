@@ -6,7 +6,7 @@ const About = () => {
           <div className="widget">
             <p className="text-base leading-10 lg:text-xl xl:text-xxl">
               I live sound and was awarded a degree in Audio Engineering and
-              Production.
+              Production at Catalyst in Funkhaus, Berlin.
               <br />
               <br />
               My other obsession is Computer Science. I am coding websites for

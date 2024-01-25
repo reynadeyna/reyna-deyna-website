@@ -50,7 +50,7 @@ const Contacts = () => {
           className="border rounded-full border-f1f5f8 py-2 shadow-drop placeholder-font2 text-center text-font2 hover:border-bafff9aa hover:shadow-00ffeaaa mb-4"
           type="text"
           value={name}
-          placeholder="Enter your name"
+          placeholder="Name"
           onChange={(e) => setName(e.target.value)}
         />
 
@@ -58,7 +58,7 @@ const Contacts = () => {
           className="border rounded-full border-f1f5f8 py-2 shadow-drop placeholder-font2 text-center text-font2 hover:border-bafff9aa hover:shadow-00ffeaaa mb-4"
           type="email"
           value={email}
-          placeholder="Enter your email"
+          placeholder="Email"
           onChange={(e) => setEmail(e.target.value)}
         />
 
@@ -66,7 +66,7 @@ const Contacts = () => {
           className="border rounded-full border-f1f5f8 py-2 shadow-drop placeholder-font2 text-center text-font2 hover:border-bafff9aa hover:shadow-00ffeaaa mb-8"
           type="text"
           value={message}
-          placeholder="Enter your message"
+          placeholder="Message"
           onChange={(e) => setMessage(e.target.value)}
         />
 

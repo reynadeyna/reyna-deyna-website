@@ -8,7 +8,7 @@ const Home = () => {
         <div className="p-0 w-90 mx-auto">
           <div className="widget text-center mt-20">
             <Link to="/delufesto" className="lg:text-2xl">
-              <h1>Greetings, Angel</h1>
+              <h1>Explore</h1>
             </Link>
           </div>
         </div>
