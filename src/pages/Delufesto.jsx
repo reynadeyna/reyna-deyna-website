@@ -1,61 +1,56 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { motion, useAnimation } from "framer-motion";
+import Links from "../components/Links";
+import { useInView } from "react-intersection-observer";
 
 const Delufesto = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({ triggerOnce: true });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start({ opacity: 1, y: 0, transition: { duration: 0.5 } });
+    }
+  }, [inView, controls]);
+
+  const textVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  };
+
   return (
-    <div class="flex justify-center pt-40 pb-40 px-5">
-      <div class="w-full md:w-4/5 lg:w-3/4 xl:w-2/3">
-        <div class="flex flex-col items-center justify-center text-center mt-12 gap-16">
-          <div class="widget">
-            <p class="text-base leading-10 lg:leading-10 lg:text-xl xl:text-xxl">
-              Hi this is{" "}
-              <Link to="/about" className="border rounded-full px-4 p-1.5">
-                MYTASY
-              </Link>{" "}
-              and I have an idea what I am doing here. You might hear, however
-              I, might be gliching. I might be I might be glichinnnnnnnnññ. I
-              might be listening to my{" "}
-              <Link to="/music" className="border rounded-full px-4 p-1.5">
-                MUSIC
-              </Link>{" "}
-              Taking my headphones off, sure,{" "}
-              <Link to="/ama" className="border rounded-full px-4 p-1.5">
-                ASK
-              </Link>{" "}
-              me anything.
+    <div className="flex justify-center pt-40 pb-40 px-5">
+      <div className="w-full md:w-4/5 lg:w-3/4 xl:w-2/3">
+        <div className="flex flex-col items-center justify-center text-center mt-12 gap-16">
+          <div className="widget">
+            <motion.p
+              className="text-base leading-10 lg:leading-10 lg:text-xl xl:text-xxl"
+              ref={ref}
+              initial="hidden"
+              animate={controls}
+              variants={textVariants}
+            >
+              My memory has contracted to become stronger; body has grown
+              thicker, making it tough to move; nail extensions seem to have
+              become a sword. I am actually stronger than a God, you know. What
+              are you saying? I am in perfect form.
               <br />
               <br />
-              <br />
-              Your memory has contracted to become stronger. Your body has grown
-              thicker, making it tough to move. Your nail extensions seems to
-              have become a sword. You're actually stronger than a God, you
-              know. What are you saying. You're in perfect form. God, huh. This
-              is just fine too. That is so... I see, so it's like a daydream. It
-              is so like Angelware's Fantasy.
-              <br />
-              <br />
-              <br />
-              {/* People asking if I am okay people be asking me to throw my phone
-              out. Like, why would you consume me now? Like, do I confuse you?
-              <br />
-              <br />
-              <br /> */}
               I found myself standing somewhere new, I examined my transformed
               body. This world was undoubtedly one of mystique, where the
               limitations of my human form were no longer relevant.
               <br />
               <br />
-              <br />
               In the midst of it all, I felt like I had crossed the threshold of
-              existence, yet here I stand, poised to embark once more.
+              existence, yet here I stand, poised to embark once more. Voices
+              surround me, inquiring about my well-being.
               <br />
-              Voices surround me, inquiring about my well-being.
               <br />
-              They weave a concern, a reminder that the journey continues.
+              They weave concern, a reminder that the journey continues.
               Meanwhile, the digital hum drums on, urging me to cast away my
               device. Like, why would you consume me now? Like, do I confuse
               you?
-              <br />
               <br />
               <br />
               In that fleeting moment, I was convinced that I had traversed the
@@ -64,20 +59,16 @@ const Delufesto = () => {
               of the living.
               <br />
               <br />
-              <br />
               In that suspended moment, destiny had deemed my story unfinished.
-              <br />
               Between life and beyond, I tasted the essence of mortality, only
               to be reborn as a deity of my own destiny, draped in the hues of
               Bimbo Indigo power.
-              <br />
               <br />
               <br />
               Behold as I stride back into the world, a phoenix arisen from the
               ashes of doubt and despair. With every step, I exude the aura of a
               goddess, fierce and unapologetic, a living testament to the
               strength that resides within.
-              <br />
               <br />
               <br />
               Amidst the crowd, their voices form a chorus of inquiries to throw
@@ -88,7 +79,6 @@ const Delufesto = () => {
               to this mortal coil.
               <br />
               <br />
-              <br />
               And there it is, the dual nature of existence - the earthly realm
               and the digital expanse. A Goddess Bimbo Indigo, I wield
               technology as an extension of my divine self, a tool through which
@@ -97,9 +87,7 @@ const Delufesto = () => {
               norms, a declaration that I am both fierce and free.
               <br />
               <br />
-              <br />
               CAN I BE FREE? CAN I HANDLE THE TRUTH?
-              <br />
               <br />
               <br />
               Look, In this manifesto of Bimbo Indigo resurgence, I honor the
@@ -109,12 +97,10 @@ const Delufesto = () => {
               embrace my intuition and speed of my unlimited mind.
               <br />
               <br />
-              <br />
               The aura I radiate is a pure essential blend of Bimbo Indigo
               intensity—an unapologetic proclamation that I am the architect of
               my own real. I am the architect of an escape portal from the
               binary matrix.
-              <br />
               <br />
               <br />
               It felt like I spent the whole entity. I lived my whole different
@@ -122,9 +108,8 @@ const Delufesto = () => {
               remember?
               <br />
               <br />
-              <br />
               Yet not the End.
-            </p>
+            </motion.p>
           </div>
         </div>
       </div>

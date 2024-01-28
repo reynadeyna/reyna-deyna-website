@@ -35,8 +35,8 @@ const Contacts = () => {
   return (
     <div className="text-white">
       <div>
-        <h1>Ask me anything</h1>
-        <h6>
+        <h1 className="">Ask me anything</h1>
+        <h6 className="">
           Your email remains confidential and visible solely to authorized
           Angelware
         </h6>

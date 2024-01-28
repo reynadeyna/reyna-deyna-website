@@ -6,7 +6,7 @@ import Ama from "./pages/Ama";
 import Delufesto from "./pages/Delufesto";
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
-import w from "./assets/WebVideo.mp4";
+import w from "./assets/WebVideo3.mp4";
 import "./styles.css";
 
 function App() {

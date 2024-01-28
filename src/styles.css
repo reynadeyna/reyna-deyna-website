@@ -136,6 +136,30 @@ video {
   }
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes explore-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .explore {
+    animation: explore-spin infinite 17s linear;
+  }
+}
+
 input {
   background: none;
   transition: border-color 0.3s, filter 0.3s;

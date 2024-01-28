@@ -1,15 +1,25 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { motion, useAnimation } from "framer-motion";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const controls = useAnimation();
+
+  const variants = {
+    hidden: { opacity: 0, y: -50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+    exit: { opacity: 0, y: -50, transition: { duration: 0.5 } },
+  };
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+    controls.start(menuOpen ? "hidden" : "visible");
   };
 
   const closeMenu = () => {
     setMenuOpen(false);
+    controls.start("hidden");
   };
 
   return (
@@ -19,11 +29,9 @@ const Navbar = () => {
         <img
           src="/Icon2.svg"
           alt="Menu Icon"
-          className={`cursor-pointer z-40 h-20 w-20 mt-8 transform transition-transform ${
-            menuOpen ? "rotate-45" : "rotate-0"
-          } animate-spin ${
-            menuOpen ? "animate-pulse" : ""
-          } hover:translate-x-2 hover:translate-y-2`}
+          className={`cursor-pointer z-40 h-20 w-20 mt-8 ${
+            menuOpen ? "rotate-180" : "rotate-0"
+          } animate-spin ${menuOpen ? "" : "explore"} hover:animate`}
           onClick={toggleMenu}
           style={{ filter: "brightness(0) invert(1)", opacity: 0.7 }}
         />
@@ -36,42 +44,66 @@ const Navbar = () => {
         }`}
         onClick={closeMenu}
       ></div>
-      <div
+      <motion.div
         className={`fixed inset-0 z-40 flex items-center justify-center ${
           menuOpen ? "" : "hidden"
         }`}
+        animate={controls}
+        initial="hidden"
+        variants={variants}
       >
         <div className=" p-8 w-full h-full flex items-center justify-center mt-16">
-          <ul className="flex flex-col items-center gap-11 mt-10">
-            <li className="text-white border rounded-full px-16 py-2">
+          <motion.ul
+            className="flex flex-col items-center gap-11 mt-10"
+            initial="hidden"
+            animate={menuOpen ? "visible" : "hidden"}
+            exit="exit"
+            variants={variants}
+          >
+            <motion.li
+              className="text-white border rounded-full px-16 py-2"
+              variants={variants}
+            >
               <Link onClick={closeMenu} to="/" className="text-white">
                 {" "}
                 Home{" "}
               </Link>
-            </li>
-            <li className="text-white border rounded-full px-16 py-2">
+            </motion.li>
+            <motion.li
+              className="text-white border rounded-full px-16 py-2"
+              variants={variants}
+            >
               <Link onClick={closeMenu} to="/about" className="text-white">
                 About
               </Link>
-            </li>
-            <li className="text-white border rounded-full px-10 py-2">
+            </motion.li>
+            <motion.li
+              className="text-white border rounded-full px-10 py-2"
+              variants={variants}
+            >
               <Link onClick={closeMenu} to="/delufesto" className="text-white">
                 Delufesto
               </Link>
-            </li>
-            <li className="text-white border rounded-full px-16 py-2">
+            </motion.li>
+            <motion.li
+              className="text-white border rounded-full px-16 py-2"
+              variants={variants}
+            >
               <Link onClick={closeMenu} to="/music" className="text-white">
                 Music
               </Link>
-            </li>
-            <li className="text-white border rounded-full px-14 py-2">
+            </motion.li>
+            <motion.li
+              className="text-white border rounded-full px-14 py-2"
+              variants={variants}
+            >
               <Link onClick={closeMenu} to="/ama" className="text-white">
                 Ask me
               </Link>
-            </li>
-          </ul>
+            </motion.li>
+          </motion.ul>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
