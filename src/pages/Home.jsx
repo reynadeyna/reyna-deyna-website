@@ -61,7 +61,7 @@ const Home = () => {
             Designed and built by Angelware
           </h2>
 
-          <div className="flex space-x-2 my-2 p-1">
+          <div className="flex space-x-2 p-1">
             <Links />
           </div>
         </div>
