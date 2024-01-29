@@ -19,6 +19,18 @@ const Delufesto = () => {
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
 
+  useEffect(() => {
+    const scrollDown = () => {
+      window.scrollBy({
+        top: 2,
+        behavior: "smooth",
+      });
+
+      setTimeout(scrollDown, 20);
+    };
+    scrollDown();
+  }, []);
+
   return (
     <div className="flex justify-center pt-40 pb-40 px-5">
       <div className="w-full md:w-4/5 lg:w-3/4 xl:w-2/3">
