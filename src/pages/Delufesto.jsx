@@ -21,14 +21,19 @@ const Delufesto = () => {
 
   useEffect(() => {
     const scrollDown = () => {
-      window.scrollBy({
-        top: 2,
+      window.scrollTo({
+        top: window.scrollY + 5,
         behavior: "smooth",
       });
 
-      setTimeout(scrollDown, 20);
+      setTimeout(scrollDown, 50);
     };
+
     scrollDown();
+
+    return () => {
+      window.removeEventListener("scroll", scrollDown);
+    };
   }, []);
 
   return (

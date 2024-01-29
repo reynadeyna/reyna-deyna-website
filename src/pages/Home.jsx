@@ -23,9 +23,9 @@ const Home = () => {
 
   return (
     <div className="flex flex-col h-screen overflow-x-hidden">
-      <div className="flex flex-col items-center justify-center h-screen fixed top-0 left-0 right-0 z-10">
-        <div className="p-0 w-90 mx-auto">
-          <div className="explore text-center">
+      <div className="flex flex-col items-center justify-center h-screen">
+        <div className="p-0 w-90 mx-auto mt-10">
+          <div className="explore text-center mt-20 ">
             <motion.div
               animate={controls}
               initial={{ scale: 1, opacity: 1 }}
@@ -55,18 +55,13 @@ const Home = () => {
         </div>
       </div>
 
-           <div className="flex flex-col items-center justify-center flex-grow">
-      </div>
+      <div className="footer flex flex-col items-center justify-center mb-3">
+        <h2 className="footer-text text-center">
+          Designed and built by Angelware
+        </h2>
 
-      <div className="fixed bottom-0 left-0 right-0 z-10">
-        <div className="footer flex flex-col items-center justify-center">
-          <h2 className="footer-text text-center">
-            Designed and built by Angelware
-          </h2>
-
-          <div className="flex space-x-2 p-1">
-            <Links />
-          </div>
+        <div className="flex space-x-2 my-4 p-1">
+          <Links />
         </div>
       </div>
     </div>
