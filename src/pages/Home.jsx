@@ -55,8 +55,11 @@ const Home = () => {
         </div>
       </div>
 
+           <div className="flex flex-col items-center justify-center flex-grow">
+      </div>
+
       <div className="fixed bottom-0 left-0 right-0 z-10">
-        <div className="footer flex flex-col items-center justify-center mb-3">
+        <div className="footer flex flex-col items-center justify-center">
           <h2 className="footer-text text-center">
             Designed and built by Angelware
           </h2>
