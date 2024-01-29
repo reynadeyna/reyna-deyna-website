@@ -40,13 +40,13 @@ const Home = () => {
                 className="lg:text-2xl"
               >
                 <img
-                  src="/Icon2.svg"
+                  src="/Icon1.svg"
                   alt="Menu Icon"
                   style={{
-                    filter: "brightness(0) invert(1)",
-                    opacity: 0.7,
-                    width: "13rem",
-                    height: "13rem",
+                    filter: "brightness(0) contrast(1.2) saturate(7)", 
+                    opacity: 0.6,
+                    width: "500px",
+                    height: "500px",
                   }}
                 />
               </Link>
