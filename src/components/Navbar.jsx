@@ -57,7 +57,7 @@ const Navbar = () => {
         initial="hidden"
         variants={variants}
       >
-        <div className=" p-8 w-full h-full flex items-center justify-center mt-16">
+        <div className="p-8 w-full h-full flex items-center justify-center mt-16">
           <motion.ul
             className="flex flex-col items-center gap-11 mt-10"
             initial="hidden"
@@ -69,7 +69,7 @@ const Navbar = () => {
               className="text-white border rounded-full px-16 py-2"
               variants={variants}
             >
-              <Link onClick={closeMenu} to="/" className="text-white">
+              <Link onClick={closeMenu} to="/" className="text-rose-100">
                 {" "}
                 Home{" "}
               </Link>
@@ -78,7 +78,7 @@ const Navbar = () => {
               className="text-white border rounded-full px-16 py-2"
               variants={variants}
             >
-              <Link onClick={closeMenu} to="/about" className="text-white">
+              <Link onClick={closeMenu} to="/about" className="text-rose-100">
                 About
               </Link>
             </motion.li>
@@ -86,7 +86,7 @@ const Navbar = () => {
               className="text-white border rounded-full px-10 py-2"
               variants={variants}
             >
-              <Link onClick={closeMenu} to="/delufesto" className="text-white">
+              <Link onClick={closeMenu} to="/delufesto" className="text-rose-100">
                 Delufesto
               </Link>
             </motion.li>
@@ -94,7 +94,7 @@ const Navbar = () => {
               className="text-white border rounded-full px-16 py-2"
               variants={variants}
             >
-              <Link onClick={closeMenu} to="/music" className="text-white">
+              <Link onClick={closeMenu} to="/music" className="text-rose-100">
                 Music
               </Link>
             </motion.li>
@@ -102,7 +102,7 @@ const Navbar = () => {
               className="text-white border rounded-full px-14 py-2"
               variants={variants}
             >
-              <Link onClick={closeMenu} to="/ama" className="text-white">
+              <Link onClick={closeMenu} to="/ama" className="text-rose-100">
                 Ask me
               </Link>
             </motion.li>

@@ -5,48 +5,14 @@ import Links from "../components/Links";
 import { useInView } from "react-intersection-observer";
 
 const Delufesto = () => {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({ triggerOnce: true });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start({ opacity: 1, y: 0, transition: { duration: 0.5 } });
-    }
-  }, [inView, controls]);
-
-  const textVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-  };
-
-  useEffect(() => {
-    const scrollDown = () => {
-      window.scrollTo({
-        top: window.scrollY + 5,
-        behavior: "smooth",
-      });
-
-      setTimeout(scrollDown, 50);
-    };
-
-    scrollDown();
-
-    return () => {
-      window.removeEventListener("scroll", scrollDown);
-    };
-  }, []);
 
   return (
     <div className="flex justify-center pt-40 pb-40 px-5">
       <div className="w-full md:w-4/5 lg:w-3/4 xl:w-2/3">
         <div className="flex flex-col items-center justify-center text-center mt-12 gap-16">
           <div className="widget">
-            <motion.p
+            <p
               className="text-base leading-10 lg:leading-10 lg:text-xl xl:text-xxl"
-              ref={ref}
-              initial="hidden"
-              animate={controls}
-              variants={textVariants}
             >
               My memory has contracted to become stronger; body has grown
               thicker, making it tough to move; nail extensions seem to have
@@ -126,7 +92,7 @@ const Delufesto = () => {
               <br />
               <br />
               Yet not the End.
-            </motion.p>
+            </p>
           </div>
         </div>
       </div>

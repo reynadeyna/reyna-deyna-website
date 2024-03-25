@@ -33,7 +33,7 @@ const Contacts = () => {
   };
 
   return (
-    <div className="text-white">
+    <div className="">
       <div>
         <h1 className="">Ask me anything</h1>
         <h6 className="">
