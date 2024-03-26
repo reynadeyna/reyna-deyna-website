@@ -20,7 +20,7 @@ const About = () => {
               <br />
               I was born to love. I find joy in expressing dance and song. I
               like to be in spa, beach, snow, nature and mountains. Like to
-              taste negroni, kimchi and champagne, and smell terroni and ocean.
+              taste kimchi and smell terroni and ocean.
               <br />
               <br />
               I believe in a Solar Punk futuristic human setting. I wish our
