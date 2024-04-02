@@ -35,10 +35,13 @@ const Contacts = () => {
   return (
     <div className="">
       <div>
-        <h1 className="">Ask me anything</h1>
+        <h1 className="">·:*¨༺ Ask me anything ༻¨*:·</h1>
         <h6 className="">
-          Your email remains confidential and visible solely to authorized
-          Angelware
+        ·:*¨༺ Your email remains confidential and visible solely to authorized
+          Angelware ༻¨*:·
+        </h6>
+        <h6>
+        ·:*¨༺ Or, send me a secret at angel@reynadeyna.com ༻¨*:·
         </h6>
       </div>
 
@@ -74,7 +77,7 @@ const Contacts = () => {
           type="submit"
           className="rounded-md border border-transparent p-3 text-base cursor-crosshair transition duration-250 shadow-drop hover:border-00ffea13 hover:shadow-00ffeaaa"
         >
-          Submit
+          ·:*¨༺ Submit ༻¨*:·
         </button>
       </form>
     </div>
