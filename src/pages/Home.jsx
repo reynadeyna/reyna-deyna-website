@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
 import Links from "../components/Links";
+import w from "../assets/me.png";
+
 
 const Home = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -25,7 +27,7 @@ const Home = () => {
     <div className="flex flex-col h-screen overflow-x-hidden">
       <div className="flex flex-col items-center justify-center h-screen">
         <div className="p-0 w-90 mx-auto mt-10">
-          <div className="explore text-center mt-20 ">
+          <div className="explore text-center mt-32 ">
             <motion.div
               animate={controls}
               initial={{ scale: 1, opacity: 1 }}
@@ -39,15 +41,18 @@ const Home = () => {
                 }}
                 className="lg:text-2xl"
               >
+     
                 <img
-                  src="/Icon1.svg"
+
+                  src={w}
                   alt="Menu Icon"
                   style={{
-                    filter: "brightness(0) contrast(1.2) saturate(7)", 
-                    opacity: 0.6,
-                    width: "300px",
-                    height: "300px",
+                    // filter: "brightness(0) contrast(1.2) saturate(7)", 
+                    // opacity: 0.6,
+                    width: "600px",
+                    height: "350px",
                   }}
+
                 />
               </Link>
             </motion.div>
@@ -55,14 +60,17 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="footer flex flex-col items-center justify-center mb-3">
-        <h2 className="footer-text text-center text-black">
-          Designed and built by Reyna Deyna
-        </h2>
+      <div className="footer flex flex-col items-center justify-center mb-3 text-white text-sm">
 
-        <div className="flex space-x-2 my-4 p-1">
+
+        <div className=" footer-text flex space-x-2 my-4 p-1">
           <Links />
         </div>
+
+        <h2 className="footer-text-2 text-center text-white">
+          Designed and Built by Reyna Deyna
+        </h2>
+
       </div>
     </div>
   );

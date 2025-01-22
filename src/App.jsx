@@ -6,14 +6,18 @@ import Ama from "./pages/Ama";
 import Delufesto from "./pages/Delufesto";
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
-import w from "./assets/WebVideo1111.mp4";
+import w from "./assets/grazy.jpg";
 import "./styles.css";
 
 function App() {
   return (
     <>
       <div className="main">
-        <video src={w} autoPlay loop playsInline muted />
+        {/* <video src={w} autoPlay loop playsInline muted /> */}
+        <img src={w}
+        alt="reyna deyna"
+        style={{position: 'fixed'}}
+        />
         <div className="overlay"></div>
       </div>
 

@@ -12,22 +12,25 @@ import bluesky from "../assets/media_icons/bluesky.svg";
 const Links = () => {
   return (
     <div className="flex flex-wrap space-x-2 gap-2">
+
+      <a href=" https://matrix.to/#/@reynadeyna:matrix.org?client=im.fluffychat" target="_blank"> Matrix
+      </a>
       
-      <a href="https://github.com/reynadeyna" target="_blank">
-        <img src={octocat} className="logo" alt="Github logo" />
+      <a href="https://github.com/reynadeyna" target="_blank"> Github
+        {/* <img src={octocat} className="logo" alt="Github logo" /> */}
       </a>
 
-      <a href="https://discord.gg/QRY43edW" target="_blank">
-        <img src={discord} className="logo" alt="Discord logo" />
+      <a href="https://discord.gg/QRY43edW" target="_blank"> Discord
+        {/* <img src={discord} className="logo" alt="Discord logo" /> */}
       </a>
 
-      <a href="https://open.spotify.com/artist/2UwsiwBg4Tu7vszP2WjkjC" target="_blank">
+      {/* <a href="https://open.spotify.com/artist/2UwsiwBg4Tu7vszP2WjkjC" target="_blank"> Spotify
         <img src={spotify} className="logo" alt="Spotify logo" />
-      </a>
+      </a> */}
 
-      <a href="https://reynadeyna.bandcamp.com" target="_blank">
+      {/* <a href="https://reynadeyna.bandcamp.com" target="_blank">
         <img src={bandcamp} className="logo" alt="bandcamp logo" />
-      </a>
+      </a> */}
 
       {/* <a href="https://www.instagram.com/reynadeyna" target="_blank">
         <img src={instagram} className="logo" alt="Instagram logo" />
@@ -37,19 +40,18 @@ const Links = () => {
         <img src={tiktok} className="logo" alt="TikTok logo" />
       </a> */}
 
-      <a href="https://www.youtube.com/reynadeyna" target="_blank">
-        <img src={youtube} className="logo" alt="YouTube logo" />
+      <a href="https://www.youtube.com/@reynadeyna" target="_blank"> Youtube
+        {/* <img src={youtube} className="logo" alt="YouTube logo" /> */}
       </a>
 
-      <a href="https://bsky.app/profile/reynadeyna.bsky.social" target="_blank">
+      <a href="https://bsky.app/profile/reynadeyna.bsky.social" target="_blank"> Bluesky
         {/* <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" className="logo black-svg" alt="bluesky logo" /> */}
-        <img src={bluesky} className="logo" alt="Bluesky logo" />
+        {/* <img src={bluesky} className="logo" alt="Bluesky logo" /> */}
       </a>
 
-      <a href="https://soundcloud.com/reynadeyna" target="_blank">
-        <img src={soundcloud} className="logo" alt="SoundCloud logo" />
+      <a href="https://soundcloud.com/reynadeyna" target="_blank"> Soundcloud
+        {/* <img src={soundcloud} className="logo" alt="SoundCloud logo" /> */}
       </a>
-
 
 
 

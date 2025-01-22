@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
+import w from "../assets/1.png";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,19 +28,20 @@ const Navbar = () => {
     <>
       {/* Navbar */}
       <nav className="navbar text-white p-4 fixed w-full top-0 flex justify-center">
+
         <img
-          src="/Icon1.svg"
+          src={w}
           alt="Menu Icon"
           className={`cursor-pointer z-40 h-20 w-20 mt-8 ${
             menuOpen ? "rotate-180" : "rotate-0"
           } animate-spin ${menuOpen ? "" : "explore"} hover:animate`}
           onClick={toggleMenu}
-          style={{
-            filter: `brightness(0) contrast(1.2) saturate(7) ${
-              menuOpen ? "invert(1) contrast(1) brightness(1)" : ""
-            }`,
-            opacity: 0.7,
-          }}
+          // style={{
+          //   filter: `brightness(0) contrast(1.2) saturate(7) ${
+          //     menuOpen ? "invert(1) contrast(1) brightness(1)" : ""
+          //   }`,
+          //   opacity: 0.7,
+          // }}
         />
       </nav>
 
@@ -66,7 +69,7 @@ const Navbar = () => {
             variants={variants}
           >
             <motion.li
-              className="text-white border rounded-full px-16 py-2"
+              className="text-white px-16 py-2"
               variants={variants}
             >
               <Link onClick={closeMenu} to="/" 
@@ -77,7 +80,7 @@ const Navbar = () => {
               </Link>
             </motion.li>
             <motion.li
-              className="text-white border rounded-full px-16 py-2"
+              className="text-white px-16 py-2"
               variants={variants}
             >
               <Link onClick={closeMenu} to="/about" 
@@ -87,7 +90,7 @@ const Navbar = () => {
               </Link>
             </motion.li>
             <motion.li
-              className="text-white border rounded-full px-10 py-2"
+              className="text-white px-10 py-2"
               variants={variants}
             >
               <Link onClick={closeMenu} to="/delufesto" 
@@ -97,7 +100,7 @@ const Navbar = () => {
               </Link>
             </motion.li>
             <motion.li
-              className="text-white border rounded-full px-20 py-2"
+              className="text-white px-20 py-2"
               variants={variants}
             >
               <Link onClick={closeMenu} to="/music" 
@@ -107,7 +110,7 @@ const Navbar = () => {
               </Link>
             </motion.li>
             <motion.li
-              className="text-white border rounded-full px-14 py-2"
+              className="text-white px-14 py-2"
               variants={variants}
             >
               <Link onClick={closeMenu} to="/ama" 

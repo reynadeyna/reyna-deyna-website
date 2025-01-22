@@ -27,8 +27,6 @@ body {
   font-family: "TAN PEARL", sans-serif;
   cursor: help;
   color: var(--clr-font);
-  color: var(--clr-black);
-
 }
 
 :root {
@@ -75,7 +73,7 @@ h7 {
   width: 100%;
   height: 100vh;
   position: fixed;
-  /* background-color: rgba(242, 200, 200, 0.5); */
+  /* background-color: rgba(255, 255, 255, 0.5); */
   /* background-color: rgba(187, 158, 158, 0.502); */
 }
 
@@ -169,17 +167,17 @@ video {
   }
 }
 
-@keyframes explore-spin {
+/* @keyframes explore-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .explore {
-  filter: drop-shadow(0 0 2em rgb(255, 255, 255));
+  filter: drop-shadow(0 0 2rem rgb(255, 255, 255));
 }
 
 
@@ -214,6 +212,9 @@ button:hover {
 
 .footer-text {
   font-size: 10px;
+}
+.footer-text-2 {
+  font-size: 8px;
 }
 
 @media screen and (max-width: 640px) {
