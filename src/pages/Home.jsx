@@ -46,6 +46,7 @@ const Home = () => {
 
                   src={w}
                   alt="Menu Icon"
+                  className="hover:animate-pulse"
                   style={{
                     // filter: "brightness(0) contrast(1.2) saturate(7)", 
                     // opacity: 0.6,

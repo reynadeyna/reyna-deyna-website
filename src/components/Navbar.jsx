@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
-import w from "../assets/1.png";
+import w from "../assets/bow.png";
 
 
 const Navbar = () => {
@@ -32,9 +32,13 @@ const Navbar = () => {
         <img
           src={w}
           alt="Menu Icon"
-          className={`cursor-pointer z-40 h-20 w-20 mt-8 ${
-            menuOpen ? "rotate-180" : "rotate-0"
-          } animate-spin ${menuOpen ? "" : "explore"} hover:animate`}
+          className={`cursor-pointer z-40 h-20 w-20 mt-8 animate-pulse
+            ${
+            menuOpen ? "rotate-0" : "rotate-0"
+          } animate-pulse 
+           ${menuOpen ? "" : "explore"} 
+           hover:animate-pulse
+           `}
           onClick={toggleMenu}
           // style={{
           //   filter: `brightness(0) contrast(1.2) saturate(7) ${
