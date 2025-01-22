@@ -69,7 +69,9 @@ const Navbar = () => {
               className="text-white border rounded-full px-16 py-2"
               variants={variants}
             >
-              <Link onClick={closeMenu} to="/" className="text-rose-100">
+              <Link onClick={closeMenu} to="/" 
+              // className="text-rose-100"
+              >
                 {" "}
                 Home{" "}
               </Link>
@@ -78,7 +80,9 @@ const Navbar = () => {
               className="text-white border rounded-full px-16 py-2"
               variants={variants}
             >
-              <Link onClick={closeMenu} to="/about" className="text-rose-100">
+              <Link onClick={closeMenu} to="/about" 
+              // className="text-rose-100"
+              >
                 About
               </Link>
             </motion.li>
@@ -86,23 +90,29 @@ const Navbar = () => {
               className="text-white border rounded-full px-10 py-2"
               variants={variants}
             >
-              <Link onClick={closeMenu} to="/delufesto" className="text-rose-100">
+              <Link onClick={closeMenu} to="/delufesto" 
+              // className="text-rose-100"
+              >
                 Delufesto
               </Link>
             </motion.li>
             <motion.li
-              className="text-white border rounded-full px-16 py-2"
+              className="text-white border rounded-full px-20 py-2"
               variants={variants}
             >
-              <Link onClick={closeMenu} to="/music" className="text-rose-100">
-                Music
+              <Link onClick={closeMenu} to="/music" 
+              // className="text-rose-100"
+              >
+                Art
               </Link>
             </motion.li>
             <motion.li
               className="text-white border rounded-full px-14 py-2"
               variants={variants}
             >
-              <Link onClick={closeMenu} to="/ama" className="text-rose-100">
+              <Link onClick={closeMenu} to="/ama" 
+              // className="text-rose-100"
+              >
                 Ask me
               </Link>
             </motion.li>
