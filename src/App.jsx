@@ -18,7 +18,7 @@ function App() {
         alt="reyna deyna"
         style={{position: 'fixed'}}
         />
-        <div className="overlay"></div>
+        {/* <div className="overlay"></div> */}
       </div>
 
       <div className="content">

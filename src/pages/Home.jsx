@@ -41,8 +41,8 @@ const Home = () => {
                 }}
                 className="lg:text-2xl"
               >
-     
-                <img
+     Hot like Pheonix
+                {/* <img
 
                   src={w}
                   alt="Menu Icon"
@@ -54,7 +54,7 @@ const Home = () => {
                     height: "350px",
                   }}
 
-                />
+                /> */}
               </Link>
             </motion.div>
           </div>
