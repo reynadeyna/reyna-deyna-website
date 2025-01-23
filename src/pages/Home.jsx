@@ -61,10 +61,10 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="footer flex flex-col items-center justify-center mb-3 text-white text-sm">
+      <div className="footer footer-text-2 flex flex-col items-center justify-center mb-3 text-white">
 
 
-        <div className=" footer-text flex space-x-2 my-4 p-1">
+        <div className="footer-text flex space-x-2 my-4 p-1">
           <Links />
         </div>
 

@@ -15,10 +15,9 @@ function App() {
       <div className="main">
         {/* <video src={w} autoPlay loop playsInline muted /> */}
         <img src={w}
-        alt="reyna deyna"
-        style={{position: 'fixed'}}
+        alt="reyna deyna" className="img-background"
         />
-        {/* <div className="overlay"></div> */}
+        <div className="overlay"></div>
       </div>
 
       <div className="content">

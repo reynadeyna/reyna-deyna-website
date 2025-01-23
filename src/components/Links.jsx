@@ -11,7 +11,7 @@ import bluesky from "../assets/media_icons/bluesky.svg";
 
 const Links = () => {
   return (
-    <div className="flex flex-wrap space-x-2 gap-2  ">
+    <div className="flex flex-wrap justify-center space-x-2 gap-2  ">
 
       <a href=" https://matrix.to/#/@reynadeyna:matrix.org?client=im.fluffychat" target="_blank" className="hover:animate-pulse"> Matrix
       </a>
