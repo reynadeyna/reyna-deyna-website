@@ -38,7 +38,7 @@ const Contacts = () => {
         <h1 className="">·:*¨༺ Ask me anything ༻¨*:·</h1>
         <h6 className="">
         ·:*¨༺ Your email remains confidential and visible solely to authorized
-          Angelware ༻¨*:·
+          Amzinaware ༻¨*:·
         </h6>
         <h6>
         ·:*¨༺ Or, send me a secret at angel@reynadeyna.com ༻¨*:·

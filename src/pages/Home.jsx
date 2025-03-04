@@ -41,7 +41,7 @@ const Home = () => {
                 }}
                 className="lg:text-2xl"
               >
-     Hot like Pheonix
+     AMZINA
                 {/* <img
 
                   src={w}
@@ -69,7 +69,7 @@ const Home = () => {
         </div>
 
         <h2 className="footer-text-2 text-center text-white">
-          Designed and Built by Reyna Deyna
+          Designed and Built by AMZINA
         </h2>
 
       </div>

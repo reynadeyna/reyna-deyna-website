@@ -72,6 +72,18 @@ const Navbar = () => {
             exit="exit"
             variants={variants}
           >
+
+<motion.li
+              className="text-white px-20 py-2"
+              variants={variants}
+            >
+              <Link onClick={closeMenu} to="/music" 
+              // className="text-rose-100"
+              >
+                Art
+              </Link>
+            </motion.li>
+
             <motion.li
               className="text-white px-16 py-2"
               variants={variants}
@@ -80,9 +92,10 @@ const Navbar = () => {
               // className="text-rose-100"
               >
                 {" "}
-                Home{" "}
+                Links{" "}
               </Link>
             </motion.li>
+
             <motion.li
               className="text-white px-16 py-2"
               variants={variants}
@@ -93,26 +106,9 @@ const Navbar = () => {
                 About
               </Link>
             </motion.li>
-            <motion.li
-              className="text-white px-10 py-2"
-              variants={variants}
-            >
-              <Link onClick={closeMenu} to="/delufesto" 
-              // className="text-rose-100"
-              >
-                Delufesto
-              </Link>
-            </motion.li>
-            <motion.li
-              className="text-white px-20 py-2"
-              variants={variants}
-            >
-              <Link onClick={closeMenu} to="/music" 
-              // className="text-rose-100"
-              >
-                Art
-              </Link>
-            </motion.li>
+
+
+  
             <motion.li
               className="text-white px-14 py-2"
               variants={variants}
@@ -123,6 +119,18 @@ const Navbar = () => {
                 Ask me
               </Link>
             </motion.li>
+
+            <motion.li
+              className="text-white px-10 py-2"
+              variants={variants}
+            >
+              <Link onClick={closeMenu} to="/delufesto" 
+              // className="text-rose-100"
+              >
+                Delufesto
+              </Link>
+            </motion.li>
+
           </motion.ul>
         </div>
       </motion.div>

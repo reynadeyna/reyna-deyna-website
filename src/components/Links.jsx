@@ -13,16 +13,21 @@ const Links = () => {
   return (
     <div className="flex flex-wrap justify-center space-x-2 gap-2  ">
 
-      <a href=" https://matrix.to/#/@reynadeyna:matrix.org?client=im.fluffychat" target="_blank" className="hover:animate-pulse"> Matrix
-      </a>
+      {/* <a href=" https://matrix.to/#/@reynadeyna:matrix.org?client=im.fluffychat" target="_blank" className="hover:animate-pulse"> Matrix
+      </a> */}
       
-      <a href="https://github.com/reynadeyna" target="_blank" className="hover:animate-pulse"> Github
-        {/* <img src={octocat} className="logo" alt="Github logo" /> */}
+
+
+
+
+      <a href="https://soundcloud.com/reynadeyna" target="_blank" className="hover:animate-pulse"> Music
+        {/* <img src={soundcloud} className="logo" alt="SoundCloud logo" /> */}
       </a>
 
-      <a href="https://discord.gg/QRY43edW" target="_blank" className="hover:animate-pulse"> Discord
-        {/* <img src={discord} className="logo" alt="Discord logo" /> */}
-      </a>
+      {/* < <a href="https://bsky.app/profile/reynadeyna.bsky.social" target="_blank" className="hover:animate-pulse"> Bluesky
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" className="logo black-svg" alt="bluesky logo" />
+        <img src={bluesky} className="logo" alt="Bluesky logo" />
+      </a> */}
 
       {/* <a href="https://open.spotify.com/artist/2UwsiwBg4Tu7vszP2WjkjC" target="_blank"> Spotify
         <img src={spotify} className="logo" alt="Spotify logo" />
@@ -44,20 +49,15 @@ const Links = () => {
         {/* <img src={youtube} className="logo" alt="YouTube logo" /> */}
       </a>
 
-      <a href="https://bsky.app/profile/reynadeyna.bsky.social" target="_blank" className="hover:animate-pulse"> Bluesky
-        {/* <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg" className="logo black-svg" alt="bluesky logo" /> */}
-        {/* <img src={bluesky} className="logo" alt="Bluesky logo" /> */}
+      <a href="https://discord.gg/QRY43edW" target="_blank" className="hover:animate-pulse"> Discord
+        {/* <img src={discord} className="logo" alt="Discord logo" /> */}
       </a>
 
-      <a href="https://soundcloud.com/reynadeyna" target="_blank" className="hover:animate-pulse"> Soundcloud
-        {/* <img src={soundcloud} className="logo" alt="SoundCloud logo" /> */}
+      
+
+      <a href="https://github.com/reynadeyna" target="_blank" className="hover:animate-pulse"> Github
+        {/* <img src={octocat} className="logo" alt="Github logo" /> */}
       </a>
-
-
-
-      {/* <a href="https://twitter.com/reynadeyna" target="_blank">
-        <img src={twitter} className="logo" alt="twitter logo" />
-      </a> */}
 
     </div>
   );

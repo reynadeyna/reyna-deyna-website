@@ -15,7 +15,7 @@ function App() {
       <div className="main">
         {/* <video src={w} autoPlay loop playsInline muted /> */}
         <img src={w}
-        alt="reyna deyna" className="img-background"
+        alt="" className="img-background"
         />
         <div className="overlay"></div>
       </div>
