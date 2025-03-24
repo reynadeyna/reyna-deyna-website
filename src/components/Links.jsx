@@ -45,7 +45,7 @@ const Links = () => {
         <img src={tiktok} className="logo" alt="TikTok logo" />
       </a> */}
 
-      <a href="https://www.youtube.com/@reynadeyna" target="_blank" className="hover:animate-pulse"> Youtube
+      <a href="https://www.youtube.com/@amzinaximus" target="_blank" className="hover:animate-pulse"> Youtube
         {/* <img src={youtube} className="logo" alt="YouTube logo" /> */}
       </a>
 
