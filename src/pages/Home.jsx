@@ -28,7 +28,7 @@ const Home = () => {
       <div className="flex flex-grow items-center justify-center h-screen">
         <div className="p-0 w-90 mx-auto space-y-24">
 
-        <h2 className="footer-text-2 text-center text-gray-300 mt-72">
+        <h2 className="footer-text-2 text-center text-gray-300 mt-44">
               explore both symbols
             </h2>
 
@@ -45,7 +45,7 @@ const Home = () => {
                   e.preventDefault();
                   handleLinkClick();
                 }}
-                className="lg:text-2xl"
+                className=""
               >
                 <div className="relative">
                   <img
