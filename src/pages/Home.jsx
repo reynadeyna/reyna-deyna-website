@@ -26,7 +26,7 @@ const Home = () => {
     <div className="flex flex-col h-screen overflow-x-hidden">
       <div className="flex flex-col items-center justify-center h-screen">
         <div className="p-0 w-90 mx-auto mt-44">
-          <div className="explore text-center mt-32 ">
+          <div className="explore text-center ">
             <h2 className="footer-text-2 text-center text-gray-300">
               explore both symbols
             </h2>
