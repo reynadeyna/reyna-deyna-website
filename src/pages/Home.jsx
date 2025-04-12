@@ -24,10 +24,11 @@ const Home = () => {
 
   return (
     <div className="flex flex-col h-screen overflow-x-hidden">
-      <div className="flex flex-col items-center justify-center h-screen">
-        <div className="p-0 w-90 mx-auto mt-28">
 
-        <h2 className="footer-text-2 text-center text-gray-300 mt-10">
+      <div className="flex flex-grow items-center justify-center h-screen">
+        <div className="p-0 w-90 mx-auto space-y-24">
+
+        <h2 className="footer-text-2 text-center text-gray-300 mt-72">
               explore both symbols
             </h2>
 
@@ -46,7 +47,7 @@ const Home = () => {
                 }}
                 className="lg:text-2xl"
               >
-                <div className="relative  mt-32 ">
+                <div className="relative">
                   <img
                     src={w}
                     alt="Menu Icon"
@@ -64,7 +65,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="footer flex flex-col items-center space-y-4 justify-center text-gray-300 mt-11">
+      <div className="footer flex flex-col items-center space-y-4 justify-center text-gray-300">
+        
         <div className="footer-text flex">
           <Links />
         </div>

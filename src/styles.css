@@ -225,6 +225,8 @@ button:hover {
 
 .footer {
   margin-bottom: 6rem;
+  position: sticky;
+  bottom: 0;
 }
 
 .footer-text {
