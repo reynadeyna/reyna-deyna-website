@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div className="flex flex-col h-screen overflow-x-hidden">
 
-      <div className="flex flex-grow items-center justify-center h-screen  mt-60">
+      <div className="flex flex-grow items-center justify-center h-screen  mt-44">
         <div className="p-0 w-90 mx-auto space-y-24">
 
         <h2 className="footer-text-2 text-center text-gray-300">
