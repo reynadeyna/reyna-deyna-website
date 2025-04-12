@@ -8,14 +8,13 @@ const About = () => {
       <div className="w-full md:w-4/5 lg:w-3/4 xl:w-2/3">
         <div className="flex flex-col items-center justify-center text-center mt-12 gap-16">
           <div className="widget">
-            <p className="text-base leading-10 lg:leading-10 lg:text-xl xl:text-xxl">
-
+            <p className="text-xs leading-7">
               I live sound and was awarded a degree in Audio Engineering and
               Production at Catalyst in Funkhaus, Berlin.
               <br />
               <br />
               My other obsession is Computer Science. I am coding websites for
-              lovely people, and studying Artificial Intelligence.
+              lovely people, and studying Artificial Intelligence.  This website is coded by me.
               <br />
               <br />
               I was born to love. I find joy in expressing dance and song. I

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
-import w from "../assets/bow.png";
-
+import w from "../assets/sun.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,30 +25,20 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Navbar */}
       <nav className="navbar text-white p-4 fixed w-full top-0 flex justify-center">
-
         <img
           src={w}
           alt="Menu Icon"
-          className={`cursor-pointer z-40 h-20 w-20 mt-8 animate-pulse
-            ${
-            menuOpen ? "rotate-0" : "rotate-0"
-          } animate-pulse 
-           ${menuOpen ? "" : "explore"} 
-           hover:animate-pulse
-           `}
+          className={`
+      cursor-pointer z-40 h-20 w-20 mt-8 
+      ${menuOpen ? "animate-spin" : "animate-spin"} 
+      hover:animate-pulse
+    `}
+          style={{ animationDuration: "6s" }}
           onClick={toggleMenu}
-          // style={{
-          //   filter: `brightness(0) contrast(1.2) saturate(7) ${
-          //     menuOpen ? "invert(1) contrast(1) brightness(1)" : ""
-          //   }`,
-          //   opacity: 0.7,
-          // }}
         />
       </nav>
 
-      {/* Overlay content */}
       <div
         className={`fixed inset-0 bg-black opacity-80 z-40 ${
           menuOpen ? "" : "hidden"
@@ -72,65 +61,56 @@ const Navbar = () => {
             exit="exit"
             variants={variants}
           >
-
-<motion.li
-              className="text-white px-20 py-2"
-              variants={variants}
-            >
-              <Link onClick={closeMenu} to="/music" 
-              // className="text-rose-100"
+            <motion.li className="text-white px-14 py-2" variants={variants}>
+              <Link
+                onClick={closeMenu}
+                to="/shop"
+                // className="text-rose-100"
               >
-                Art
+                Shop
               </Link>
             </motion.li>
 
-            <motion.li
-              className="text-white px-16 py-2"
-              variants={variants}
-            >
-              <Link onClick={closeMenu} to="/" 
-              // className="text-rose-100"
+            <motion.li className="text-white px-16 py-2" variants={variants}>
+              <Link
+                onClick={closeMenu}
+                to="/"
+                // className="text-rose-100"
               >
                 {" "}
-                Links{" "}
+                Home{" "}
               </Link>
             </motion.li>
 
-            <motion.li
-              className="text-white px-16 py-2"
-              variants={variants}
-            >
-              <Link onClick={closeMenu} to="/about" 
-              // className="text-rose-100"
+            <motion.li className="text-white px-16 py-2" variants={variants}>
+              <Link
+                onClick={closeMenu}
+                to="/about"
+                // className="text-rose-100"
               >
                 About
               </Link>
             </motion.li>
 
-
-  
-            <motion.li
-              className="text-white px-14 py-2"
-              variants={variants}
-            >
-              <Link onClick={closeMenu} to="/ama" 
-              // className="text-rose-100"
+            <motion.li className="text-white px-14 py-2" variants={variants}>
+              <Link
+                onClick={closeMenu}
+                to="/ama"
+                // className="text-rose-100"
               >
                 Ask me
               </Link>
             </motion.li>
 
-            <motion.li
-              className="text-white px-10 py-2"
-              variants={variants}
-            >
-              <Link onClick={closeMenu} to="/delufesto" 
-              // className="text-rose-100"
+            <motion.li className="text-white px-20 py-2" variants={variants}>
+              <Link
+                onClick={closeMenu}
+                to="/music"
+                // className="text-rose-100"
               >
-                Delufesto
+                Collection
               </Link>
             </motion.li>
-
           </motion.ul>
         </div>
       </motion.div>

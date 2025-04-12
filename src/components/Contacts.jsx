@@ -33,15 +33,15 @@ const Contacts = () => {
   };
 
   return (
-    <div className="">
-      <div>
-        <h1 className="">·:*¨༺ Ask me anything ༻¨*:·</h1>
+    <div className="text-xs leading-5">
+      <div className="">
+        <h1 className="">Ask me anything.</h1>
         <h6 className="">
-        ·:*¨༺ Your email remains confidential and visible solely to authorized
-          Amzinaware ༻¨*:·
+        Your email remains confidential and visible solely to authorized
+          Amzinaware.
         </h6>
         <h6>
-        ·:*¨༺ Or, send me a secret at angel@reynadeyna.com ༻¨*:·
+        Or, send me a secret at angel@reynadeyna.com
         </h6>
       </div>
 

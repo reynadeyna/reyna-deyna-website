@@ -12,86 +12,89 @@ const Delufesto = () => {
         <div className="flex flex-col items-center justify-center text-center mt-12 gap-16">
           <div className="widget">
             <p
-              className="text-base leading-10 lg:leading-10 lg:text-xl xl:text-xxl"
+              className="text-xs leading-7"
             >
-              My memory has contracted to become stronger; body has grown
-              thicker, making it tough to move; nail extensions seem to have
-              become a sword. I am actually stronger than a God, you know. What
-              are you saying? I am in perfect form.
-              <br />
-              <br />
-              I found myself standing somewhere new, I examined my transformed
-              body. This world was undoubtedly one of mystique, where the
-              limitations of my human form were no longer relevant.
-              <br />
-              <br />
-              In the midst of it all, I felt like I had crossed the threshold of
-              existence, yet here I stand, poised to embark once more. Voices
-              surround me, inquiring about my well-being.
-              <br />
-              <br />
-              They weave concern, a reminder that the journey continues.
-              Meanwhile, the digital hum drums on, urging me to cast away my
-              device. Like, why would you consume me now? Like, do I confuse
-              you?
-              <br />
-              <br />
-              In that fleeting moment, I was convinced that I had traversed the
-              boundary between life and whatever lies beyond. Yet, like the
-              phoenix rekindling its flame, I find myself reborn into the realm
-              of the living.
-              <br />
-              <br />
-              In that suspended moment, destiny had deemed my story unfinished.
-              Between life and beyond, I tasted the essence of mortality, only
-              to be reborn as a deity of my own destiny, draped in the hues of
-              Bimbo Indigo power.
-              <br />
-              <br />
-              Behold as I stride back into the world, a phoenix arisen from the
-              ashes of doubt and despair. With every step, I exude the aura of a
-              goddess, fierce and unapologetic, a living testament to the
-              strength that resides within.
-              <br />
-              <br />
-              Amidst the crowd, their voices form a chorus of inquiries to throw
-              my device out, but I stand tall, an embodiment of resilience and
-              fire. No mere mortal, but a deity in human form, embracing the
-              Bimbo Indigo energy that courses through my veins. Their words
-              wash over me like a symphony of recognition, affirming my return
-              to this mortal coil.
-              <br />
-              <br />
-              And there it is, the dual nature of existence - the earthly realm
-              and the digital expanse. A Goddess Bimbo Indigo, I wield
-              technology as an extension of my divine self, a tool through which
-              I channel my power. The Bimbo Spirit, often misunderstood, is my
-              chosen vessel for rebellion, a conscious rejection of societal
-              norms, a declaration that I am both fierce and free.
-              <br />
-              <br />
-              CAN I BE FREE? CAN I HANDLE THE TRUTH?
-              <br />
-              <br />
-              Look, In this manifesto of Bimbo Indigo resurgence, I honor the
-              boundless continuity of my existence. The goddess, the Bimbo, the
-              Bimbo Indigo! As I reclaim my place in this world, I embrace my
-              inner goddess, a fearless embodiment of power and possibility. I
-              embrace my intuition and speed of my unlimited mind.
-              <br />
-              <br />
-              The aura I radiate is a pure essential blend of Bimbo Indigo
-              intensity—an unapologetic proclamation that I am the architect of
-              my own real. I am the architect of an escape portal from the
-              binary matrix.
-              <br />
-              <br />
-              It felt like I spent the whole entity. I lived my whole different
-              life. Would you want me to tell you at least one moment that I
-              remember?
-              <br />
-              <br />
-              Yet not the End.
+        
+
+                1. We upgrade, we evolve, we rewrite.
+                <br />
+
+                We do not accept default settings.
+                Our bodies, our minds, our code—rewrite at will.
+                New skin, new hair, new ass, new boobs, new lips, new lashes, new abilities.
+                Manifestation is just self-programming. Reality bends when you learn the commands.
+                <br />
+                <br />
+
+                2. We are, and that is enough.
+                <br />
+
+                Have long nails, even if they make typing a challenge.
+                Adapt. Overcome. Look hot.
+                Beauty is a virus in the patriarchal mainframe.
+                Spread it. Infect their biases. Rewrite the code.
+                <br />
+                <br />
+
+                3. We glitch, and we glitch with power.
+                <br />
+
+                Glitch elegantly. If they think you’re malfunctioning, let them. Then reboot stronger.
+                When we are hormonal, when we are ADHD, when we are bipolar, when we are PMS—
+                and they say, Oh, you’re just this, you’re just that—
+                we say: Yes, and?
+                Our emotions are not errors. They are the source code of something greater.
+                <br />
+                <br />
+
+                4. We are not mean. We are just not soft.
+                <br />
+
+                They expect our voices to be sweet, our tones to be gentle.
+                When we are direct, they call us harsh.
+                But when a man speaks the same way, no one calls him mean.
+                It’s not our voices that are too sharp—it’s their ears that are too fragile.
+                <br />
+                <br />
+
+                5. We know what we’re doing.
+                <br />
+
+                Men come and assume they know better.
+                They explain, they interrupt, they take over.
+                We are smarter than they expect, more capable than they assume.
+                We do not need permission to exist in our own expertise.
+                <br />
+                <br />
+
+                6. We are not a liability.
+                <br />
+
+                They hesitate to hire us because we might give birth.
+                They see our future children as lost profits.
+                They measure our worth in risk and maternity leave.
+                But if we can create life, we can create anything.
+                <br />
+                <br />
+
+                7. We crash, we reboot, we rise.
+                <br />
+
+                Crashes happen. Breakdowns happen. Meltdowns happen.
+                Debug. Evolve. Update. Restart.
+                A system failure is not the end—it’s a signal that an upgrade is coming.
+                <br />
+                <br />
+
+                Final Transmission
+                <br />
+                <br />
+                Bimbo Indigo is not just a look, a persona, or a rebellion. It is a system update.
+                We are beautiful, we are intelligent, we are limitless.
+                We are here.
+
+
+
             </p>
           </div>
         </div>

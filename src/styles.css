@@ -64,6 +64,7 @@ h7 {
   width: 100%;
   height: 100vh;
   position: relative;
+
 }
 
 .overlay {
@@ -158,6 +159,7 @@ h7 {
   }
 }
 
+
 /* @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -186,6 +188,21 @@ h7 {
     animation: explore-spin infinite 17s linear;
   }
 }
+
+@keyframes spin-counterclockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.spin-counterclockwise {
+  animation: spin-counterclockwise 6s infinite linear;
+}
+
+
 
 input {
   background: none;
@@ -227,3 +244,4 @@ button:hover {
     font-size: 8px;
   }
 }
+

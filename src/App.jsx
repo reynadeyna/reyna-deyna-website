@@ -3,7 +3,9 @@ import Music from "./pages/Music";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Ama from "./pages/Ama";
+import Opening from "./pages/Opening";
 import Delufesto from "./pages/Delufesto";
+
 import { BrowserRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import w from "./assets/grazy.jpg";
@@ -28,6 +30,7 @@ function App() {
             <Route path="/ama" element={<Ama />} />
             <Route path="/about" element={<About />} />
             <Route path="/music" element={<Music />} />
+            <Route path="/opening" element={<Opening />} />
             <Route path="/delufesto" element={<Delufesto />} />
           </Routes>
         </BrowserRouter>
