@@ -29,7 +29,7 @@ const Home = () => {
         <div className="p-0 w-90 mx-auto space-y-24">
 
         <h2 className="footer-text-2 text-center text-gray-300">
-              explore both symbols
+              choose a symbol
             </h2>
 
           <div className="explore text-center ">
