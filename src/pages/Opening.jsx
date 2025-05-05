@@ -41,7 +41,7 @@ const Opening = () => {
               intensity; an unapologetic proclamation that I am the architect of
               my own real. I am the architect of an escape portal from the
               binary matrix. The Bimbo Indigo Spirit, often misunderstood, is my
-              chosen vessel for rebellion—a conscious rejection of societal
+              chosen vessel for rebellion; a conscious rejection of societal
               norms, a declaration that I am both fierce and free.
               <br />
               <br />
