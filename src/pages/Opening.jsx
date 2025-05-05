@@ -24,8 +24,7 @@ const Opening = () => {
               <br />
               In the midst of it all, I felt as though I had crossed the
               threshold of existence; yet, here I stand, poised to embark once
-              more. Voices surround me, washing over me like a symphony of
-              recognition, affirming my return to this mortal coil. In that
+              more. Voices surround me affirming my return to this mortal coil. In that
               suspended moment, destiny deemed my story unfinished.
               <br />
               <br />
@@ -39,7 +38,7 @@ const Opening = () => {
               <br />
               <br />
               The aura I radiate is a pure, essential blend of Bimbo Indigo
-              intensity—an unapologetic proclamation that I am the architect of
+              intensity; an unapologetic proclamation that I am the architect of
               my own real. I am the architect of an escape portal from the
               binary matrix. The Bimbo Indigo Spirit, often misunderstood, is my
               chosen vessel for rebellion—a conscious rejection of societal

@@ -20,7 +20,7 @@ const Delufesto = () => {
                 <br />
 
                 We do not accept default settings.
-                Our bodies, our minds, our code—rewrite at will.
+                Our bodies, our minds, our code; rewrite at will.
                 New skin, new hair, new ass, new boobs, new lips, new lashes, new abilities.
                 Manifestation is just self-programming. Reality bends when you learn the commands.
                 <br />
@@ -39,10 +39,7 @@ const Delufesto = () => {
                 3. We glitch, and we glitch with power.
                 <br />
 
-                Glitch elegantly. If they think you’re malfunctioning, let them. Then reboot stronger.
-                When we are hormonal, when we are ADHD, when we are bipolar, when we are PMS—
-                and they say, Oh, you’re just this, you’re just that—
-                we say: Yes, and?
+                Glitch elegantly. If they think we are malfunctioning, let them. Then reboot stronger.
                 Our emotions are not errors. They are the source code of something greater.
                 <br />
                 <br />
@@ -52,15 +49,14 @@ const Delufesto = () => {
 
                 They expect our voices to be sweet, our tones to be gentle.
                 When we are direct, they call us harsh.
-                But when a man speaks the same way, no one calls him mean.
-                It’s not our voices that are too sharp—it’s their ears that are too fragile.
+                It is not our voices that are too sharp; it is their ears that are too fragile.
                 <br />
                 <br />
 
-                5. We know what we’re doing.
+                5. We know what we are doing.
                 <br />
 
-                Men come and assume they know better.
+                Those who come and assume they know better.
                 They explain, they interrupt, they take over.
                 We are smarter than they expect, more capable than they assume.
                 We do not need permission to exist in our own expertise.
@@ -82,7 +78,7 @@ const Delufesto = () => {
 
                 Crashes happen. Breakdowns happen. Meltdowns happen.
                 Debug. Evolve. Update. Restart.
-                A system failure is not the end—it’s a signal that an upgrade is coming.
+                A system failure is not the end; it is a signal that an upgrade is coming.
                 <br />
                 <br />
 
