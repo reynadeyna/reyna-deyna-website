@@ -16,6 +16,7 @@ const socialLinks = [
   { name: "BlueSky", url: "https://bsky.app/profile/amzinaximus.bsky.social" },
   { name: "TikTok", url: "https://www.tiktok.com/@amzinaximus" },
   { name: "Tumblr", url: "https://www.tumblr.com/amzinaximus" },
+  { name: "Pinterest", url: "https://www.pinterest.com/amzinaximus/_pins/" },
   { name: "GitHub", url: "https://github.com/reynadeyna" },
   { name: "Email", url: "mailto:angel@reynadeyna.com" },
 ];
