@@ -13,7 +13,7 @@ const Links = () => {
   return (
     <div className="flex flex-wrap justify-center space-x-6 underline decoration-wavy decoration-zinc-300  ">
       <a
-        href="https://soundcloud.com/reynadeyna"
+        href="https://amzina.lt/links"
         target="_blank"
         className="hover:animate-pulse"
       >
