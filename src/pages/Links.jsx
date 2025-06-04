@@ -17,47 +17,34 @@ const socialLinks = [
   { name: "TikTok", url: "https://www.tiktok.com/@amzinaximus" },
   { name: "Tumblr", url: "https://www.tumblr.com/amzinaximus" },
   { name: "GitHub", url: "https://github.com/reynadeyna" },
-  { name: "Email", url: "https://github.com/reynadeyna" },
+  { name: "Email", url: "mailto:angel@reynadeyna.com" },
 ];
 
 const glowStyle = {
-  textShadow: "0 0 4px rgba(255, 255, 255, 0.6), 0 0 8px rgba(255, 255, 255, 0.4)",
+  boxShadow:
+    "0 0 10px rgba(255, 255, 255, 0.9), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.7)",
+  textShadow:
+    "0 0 6px rgba(255, 255, 255, 0.9), 0 0 12px rgba(255, 255, 255, 0.8)",
 };
 
 const Links = () => {
+  const allLinks = [...musicLinks, ...socialLinks];
+
   return (
-    <div className="flex items-center justify-center min-h-screen pt-28 px-4">
-      <div className="w-full max-w-md">
-        <div className="flex flex-col items-center text-center gap-8">
-          {musicLinks.map(({ name, url }) => (
-            <a
-              key={name}
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-white transition hover:scale-105"
-              style={glowStyle}
-            >
-              {name}
-            </a>
-          ))}
-
-          <div className="flex flex-wrap justify-center gap-4 pt-20">
-            {socialLinks.map(({ name, url }) => (
-              <a
-                key={name}
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-white transition hover:scale-105"
-                style={glowStyle}
-
-              >
-                {name}
-              </a>
-            ))}
-          </div>
-        </div>
+    <div className="flex items-center justify-center min-h-screen px-4 bg-stone-700">
+      <div className="flex flex-wrap justify-center gap-3 max-w-4xl mt-20">
+        {allLinks.map(({ name, url }) => (
+          <a
+            key={name}
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2 rounded-full text-white text-sm font-medium border border-white hover:scale-110 transition-all"
+            style={glowStyle}
+          >
+            {name}
+          </a>
+        ))}
       </div>
     </div>
   );

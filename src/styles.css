@@ -27,6 +27,7 @@ body {
   font-family: "TAN PEARL", sans-serif;
   cursor: help;
   color: var(--clr-font);
+  background-color: black;
 }
 
 :root {
