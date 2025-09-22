@@ -39,13 +39,13 @@ const Contacts = () => {
           <h1 className="text-xl mb-4">
             leave a letter • ask me anything
           </h1>
-                    <h6 className="text-sm font-light">
+                    <h6 className="text-xs font-light">
             or, send me a secret at{" "}
-            <a href="mailto:angel@reynadeyna.com" className="text-lime-100">
+            <a href="mailto:angel@reynadeyna.com" className="">
               angel@reynadeyna.com
             </a>
           </h6>
-          <h6 className="text-sm font-light mt-2 mb-2">
+          <h6 className="text-xs font-light mt-2 mb-2">
             your email remains confidential and visible solely
             to authorized reyaware
           </h6>
