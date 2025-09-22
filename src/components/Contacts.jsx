@@ -34,16 +34,26 @@ const Contacts = () => {
 
   return (
     <div className="text-xs leading-5">
-      <div className="">
-        <h1 className="">Ask me anything.</h1>
-        <h6 className="">
-        Your email remains confidential and visible solely to authorized
-          Amzinaware.
-        </h6>
-        <h6>
-        Or, send me a secret at angel@reynadeyna.com
-        </h6>
+      <div className="text-center">
+        <div className="mb-6">
+          <h1 className="text-xl mb-4">
+            leave a letter • ask me anything
+          </h1>
+                    <h6 className="text-sm font-light">
+            or, send me a secret at{" "}
+            <a href="mailto:angel@reynadeyna.com" className="text-lime-300">
+              angel@reynadeyna.com
+            </a>
+          </h6>
+          <h6 className="text-sm font-light mt-2 mb-2">
+            your email remains confidential and visible solely
+            to authorized reyaware
+          </h6>
+
+        </div>
       </div>
+
+      
 
       <form
         onSubmit={handleSubmit}

@@ -16,7 +16,7 @@
     "@react-spring/web": "^9.7.1",
     "@studio-freight/lenis": "^1.0.19",
     "autoprefixer": "^10.4.17",
-    "firebase": "^9.19.1",
+    "firebase": "^9.23.0",
     "firestore": "^1.1.6",
     "framer-motion": "^11.0.3",
     "measure": "^0.1.1",

@@ -4,14 +4,14 @@ import { getFirestore } from "firebase/firestore"
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAKROc2FNxtDcAHP0zUdGNEh1h2_PhOt-o",
-  authDomain: "angelware-dcc7e.firebaseapp.com",
-  projectId: "angelware-dcc7e",
-  storageBucket: "angelware-dcc7e.appspot.com",
-  messagingSenderId: "884029936812",
-  appId: "1:884029936812:web:9dfebb781e73a6bd867b09"
+  apiKey: "AIzaSyDkrp0uhWcQGNLOZFe6sxbPJBWlaGM8W3o",
+  authDomain: "reya-proxy-queries.firebaseapp.com",
+  databaseURL: "https://reya-proxy-queries-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "reya-proxy-queries",
+  storageBucket: "reya-proxy-queries.firebasestorage.app",
+  messagingSenderId: "884875553612",
+  appId: "1:884875553612:web:9e095f6a4d5d9fe6283de9"
 };
-
 
 
 const app = initializeApp(firebaseConfig);

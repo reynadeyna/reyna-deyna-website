@@ -32,7 +32,7 @@ const Questions = () => {
                     <h3>{question.client_name}:</h3>
                     <h3>{question.client_message}</h3>
                     <h2>・.・゜・。.・・.・゜・。.・</h2>
-                    <h3>Amzina:</h3>
+                    <h3>Reya Proxy:</h3>
                     <h3>{question.my_answer}</h3>
                   </div>
                 </div>
