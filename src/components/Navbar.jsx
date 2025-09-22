@@ -61,16 +61,6 @@ const Navbar = () => {
             exit="exit"
             variants={variants}
           >
-            <motion.li className="text-white px-14 py-2" variants={variants}>
-              <Link
-                onClick={closeMenu}
-                to="/shop"
-                // className="text-rose-100"
-              >
-                Shop
-              </Link>
-            </motion.li>
-
             <motion.li className="text-white px-16 py-2" variants={variants}>
               <Link
                 onClick={closeMenu}
@@ -79,6 +69,26 @@ const Navbar = () => {
               >
                 {" "}
                 Home{" "}
+              </Link>
+            </motion.li>
+
+            <motion.li className="text-white px-20 py-2" variants={variants}>
+              <Link
+                onClick={closeMenu}
+                to="/music"
+                // className="text-rose-100"
+              >
+                Works
+              </Link>
+            </motion.li>
+
+            <motion.li className="text-white px-14 py-2" variants={variants}>
+              <Link
+                onClick={closeMenu}
+                to="/shop"
+                // className="text-rose-100"
+              >
+                Shop
               </Link>
             </motion.li>
 
@@ -98,17 +108,7 @@ const Navbar = () => {
                 to="/ama"
                 // className="text-rose-100"
               >
-                Ask me
-              </Link>
-            </motion.li>
-
-            <motion.li className="text-white px-20 py-2" variants={variants}>
-              <Link
-                onClick={closeMenu}
-                to="/music"
-                // className="text-rose-100"
-              >
-                Collection
+                Queries
               </Link>
             </motion.li>
           </motion.ul>

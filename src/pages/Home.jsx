@@ -29,7 +29,7 @@ const Home = () => {
         <div className="p-0 w-90 mx-auto space-y-24">
 
         <h2 className="footer-text-2 text-center text-gray-300">
-              choose a symbol
+              ↑ menu ❘ log ↓
             </h2>
 
           <div className="explore text-center ">
@@ -71,7 +71,7 @@ const Home = () => {
           <Links />
         </div>
 
-        <h2 className="footer-text-2 text-center">coded by amzina</h2>
+        <h2 className="footer-text-2 text-center">coded by reya proxy</h2>
       </div>
     </div>
   );

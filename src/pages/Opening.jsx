@@ -24,29 +24,11 @@ const Opening = () => {
               <br />
               In the midst of it all, I felt as though I had crossed the
               threshold of existence; yet, here I stand, poised to embark once
-              more. Voices surround me affirming my return to this mortal coil. In that
-              suspended moment, destiny deemed my story unfinished.
-              <br />
-              <br />
-              CAN I BE FREE? CAN I HANDLE THE TRUTH?
-              <br />
-              <br />
-              I honor the boundless continuity of my existence. As I reclaim my
-              place in this world, I embrace my inner, fearless embodiment of
-              power and possibility. I embrace my intuition and the speed of my
-              unlimited mind.
-              <br />
-              <br />
-              The aura I radiate is a pure, essential blend of Bimbo Indigo
-              intensity; an unapologetic proclamation that I am the architect of
-              my own real. I am the architect of an escape portal from the
-              binary matrix. The Bimbo Indigo Spirit, often misunderstood, is my
-              chosen vessel for rebellion; a conscious rejection of societal
-              norms, a declaration that I am both fierce and free.
+              more. Voices surround me affirming my return to this mortal coil.
+              In that suspended moment, destiny deemed my story unfinished.
               <br />
               <br />
               Shall I reveal the moment?
-              <br />
               <br />
               <br />
               <a
