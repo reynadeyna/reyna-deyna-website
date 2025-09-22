@@ -3,7 +3,7 @@ const Links = () => {
   return (
     <div className="flex flex-wrap justify-center space-x-6 decoration-wavy decoration-zinc-300  ">
       <a
-        href="https://amzina.lt/links"
+        href="https://reyaproxy.com/links"
         target="_blank"
         className="hover:animate-pulse"
       >
