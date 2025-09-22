@@ -78,7 +78,7 @@ const Navbar = () => {
                 to="/music"
                 // className="text-rose-100"
               >
-                Works
+                Data
               </Link>
             </motion.li>
 
