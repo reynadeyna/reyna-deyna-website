@@ -11,14 +11,16 @@ import bluesky from "../assets/media_icons/bluesky.svg";
 
 const Links = () => {
   return (
-    <div className="flex flex-wrap justify-center space-x-6 underline decoration-wavy decoration-zinc-300  ">
+    <div className="flex flex-wrap justify-center space-x-6  decoration-wavy decoration-zinc-300  ">
+
+
       <a
         href=""
         target="_blank"
         className="hover:animate-pulse"
       >
         {" "}
-        tickets
+        MUSIC
       </a>
 
       <a
@@ -27,7 +29,7 @@ const Links = () => {
         className="hover:animate-pulse"
       >
         {" "}
-        music
+        TICKETS
       </a>
 
       <a
@@ -36,7 +38,7 @@ const Links = () => {
         className="hover:animate-pulse"
       >
         {" "}
-        shop
+        SHOP
       </a>
 
 
