@@ -87,7 +87,7 @@ const Contacts = () => {
           type="submit"
           className="rounded-md border border-transparent p-3 text-base cursor-crosshair transition duration-250 shadow-drop hover:border-00ffea13 hover:shadow-00ffeaaa"
         >
-          ·:*¨༺ Submit ༻¨*:·
+          ·:*¨༺ submit ༻¨*:·
         </button>
       </form>
     </div>
