@@ -41,7 +41,7 @@ const Contacts = () => {
           </h1>
                     <h6 className="text-sm font-light">
             or, send me a secret at{" "}
-            <a href="mailto:angel@reynadeyna.com" className="text-lime-300">
+            <a href="mailto:angel@reynadeyna.com" className="text-lime-100">
               angel@reynadeyna.com
             </a>
           </h6>
