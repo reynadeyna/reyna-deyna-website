@@ -4,30 +4,23 @@ import { motion, AnimatePresence } from "framer-motion";
 import w from "../assets/sun.png";
 
 const buttonStyle = {
-  width: "220px",            
-  height: "40px",           
-  lineHeight: "40px",        
-  fontSize: "14px",        
-  fontWeight: 600,
-  textAlign: "center",
-  color: "#fff",
   backdropFilter: "blur(25px)",
-  backgroundColor: "rgba(255,255,255,0.08)",
-  borderRadius: "16px",
+  borderRadius: "18px",
   border: "1px solid rgba(255,255,255,0.15)",
+  color: "#fff",
+  width: "220px",
+  padding: "14px 24px",
+  fontWeight: 600,
+  fontSize: "16px",
+  textAlign: "center",
   boxShadow: "0 8px 20px rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255,255,255,0.08)",
-  transition: "all 0.25s ease",
-  overflow: "hidden",
-  whiteSpace: "nowrap",
-  textOverflow: "ellipsis",
-  display: "inline-block",
+  backgroundColor: "rgba(255,255,255,0.08)",
+  transition: "all 0.3s ease",
 };
 
-
-
 const overlayStyle = {
-  backdropFilter: "blur(15px)",            
-  backgroundColor: "rgba(255,255,255,0.1)", 
+  backdropFilter: "blur(15px)",
+  backgroundColor: "rgba(255,255,255,0.1)",
 };
 
 const variants = {
@@ -81,7 +74,7 @@ const Navbar = () => {
               animate="visible"
               exit="exit"
             >
-              <div className="flex flex-col items-center space-y-8 justify-center footer-text pointer-events-auto">
+              <div className="flex flex-col items-center space-y-6 pointer-events-auto">
                 {links.map(({ name, to }, i) => (
                   <motion.div
                     key={name}
