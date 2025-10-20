@@ -6,16 +6,16 @@ const Links = () => {
 
   return (
     <>
-      <div className="flex flex-wrap justify-center space-x-6 decoration-wavy decoration-zinc-300">
-        <button
+      <div className="flex flex-wrap justify-center space-x-6">
+        <a
           onClick={() => setMusicOpen(true)}
-          className="hover:animate-pulse focus:outline-none"
+          className="hover:animate-pulse"
         >
           MUSIC
-        </button>
+        </a>
 
         <a
-          href=""
+          href="https://tickets.paysera.com/lt/event/reya-proxy"
           target="_blank"
           className="hover:animate-pulse"
           rel="noopener noreferrer"
@@ -24,7 +24,7 @@ const Links = () => {
         </a>
 
         <a
-          href=""
+          href="https://tickets.paysera.com/lt/event/reya-proxy"
           target="_blank"
           className="hover:animate-pulse"
           rel="noopener noreferrer"
