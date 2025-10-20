@@ -18,7 +18,7 @@ const Links = () => {
           href="https://tickets.paysera.com/lt/event/reya-proxy"
           target="_blank"
           className="hover:animate-pulse"
-          rel="noopener noreferrer"
+    
         >
           TICKETS
         </a>
@@ -27,7 +27,6 @@ const Links = () => {
           href="https://tickets.paysera.com/lt/event/reya-proxy"
           target="_blank"
           className="hover:animate-pulse"
-          rel="noopener noreferrer"
         >
           SHOP
         </a>
