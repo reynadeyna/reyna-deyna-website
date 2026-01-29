@@ -18,7 +18,9 @@ const Home = () => {
     });
 
     setTimeout(() => {
-      navigate("/opening");
+      // navigate("/opening");
+      navigate("/about");
+
     }, 1111);
   };
 
@@ -29,7 +31,31 @@ const Home = () => {
         <div className="p-0 w-90 mx-auto space-y-24">
 
         <h2 className="footer-text-2 text-center text-gray-300">
-              ↑ menu ❘ log ↓
+              {/* ↑ menu ❘ log ↓ */}
+
+
+               My memory has become stronger. My body has grown
+              thicker, making it tough to move. My nail extensions seem to have
+              become a sword. I am actually stronger than a God, you know. What
+              are you saying? I am in perfect form.
+              <br />
+              <br />
+                  <br />
+              <br />
+              I found myself standing somewhere new. I examined my transformed
+              body. This world was undoubtedly one of mystique, where the
+              limitations of my human form were no longer relevant.
+                <br />
+              <br />    <br />
+              <br />
+              In the midst of it all, I felt as though I had crossed the
+              threshold of existence. Yet, here I stand, ready to start once more. Voices surround me affirming my return to this mortal coil.
+              In that suspended moment, destiny deemed my story unfinished.
+              <br />
+              <br />
+              Shall I reveal the moment?
+              <br />
+              <br />
             </h2>
 
           <div className="explore text-center ">
@@ -48,7 +74,7 @@ const Home = () => {
                 className=""
               >
                 <div className="relative">
-                  <img
+                  {/* <img
                     src={w}
                     alt="Menu Icon"
                     className="animate-spin object-contain mx-auto spin-counterclockwise"
@@ -57,7 +83,8 @@ const Home = () => {
                       height: "100px",
                       animationDuration: "6s",
                     }}
-                  />
+                  /> */}
+                  
                 </div>
               </Link>
             </motion.div>

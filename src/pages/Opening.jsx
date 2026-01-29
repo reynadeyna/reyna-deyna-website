@@ -11,8 +11,9 @@ const Opening = () => {
         <div className="flex flex-col items-center justify-center text-center mt-12 gap-16">
           <div className="widget">
             <p className="text-xs leading-7">
-              My memory has contracted to become stronger; my body has grown
-              thicker, making it tough to move; and nail extensions seem to have
+     
+         My memory has become stronger. My body has grown
+              thicker, making it tough to move. My nail extensions seem to have
               become a sword. I am actually stronger than a God, you know. What
               are you saying? I am in perfect form.
               <br />
@@ -23,8 +24,7 @@ const Opening = () => {
               <br />
               <br />
               In the midst of it all, I felt as though I had crossed the
-              threshold of existence; yet, here I stand, poised to embark once
-              more. Voices surround me affirming my return to this mortal coil.
+              threshold of existence. Yet, here I stand, ready to start once more. Voices surround me affirming my return to this mortal coil.
               In that suspended moment, destiny deemed my story unfinished.
               <br />
               <br />

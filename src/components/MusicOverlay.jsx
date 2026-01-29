@@ -5,11 +5,11 @@ import { musicLinks } from "../data/musicLinks";
 const buttonStyle = {
   backdropFilter: "blur(25px)",            
   borderRadius: "18px",
-  border: "1px solid rgba(255,255,255,0.15)",
+  // border: "1px solid rgba(255,255,255,0.15)",
   color: "#fff",
   width: "220px",
   padding: "14px 24px",
-  fontWeight: 600,
+  // fontWeight: 600,
   textAlign: "center",
   boxShadow: "0 8px 20px rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255,255,255,0.08)",
   transition: "all 0.3s ease",

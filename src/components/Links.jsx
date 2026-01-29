@@ -11,7 +11,7 @@ const Links = () => {
           onClick={() => setMusicOpen(true)}
           className="hover:animate-pulse"
         >
-          MUSIC
+          music
         </a>
 
         <a
@@ -20,7 +20,7 @@ const Links = () => {
           className="hover:animate-pulse"
     
         >
-          TICKETS
+          tickets
         </a>
 
         <a
@@ -28,7 +28,7 @@ const Links = () => {
           target="_blank"
           className="hover:animate-pulse"
         >
-          SHOP
+          shop
         </a>
       </div>
 

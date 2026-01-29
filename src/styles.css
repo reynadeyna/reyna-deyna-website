@@ -1,10 +1,11 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@font-face {
+/* @font-face {
   font-family: "TAN Pearl";
   src: url(./assets/fonts/TAN-PEARL.ttf) format("truetype");
-}
+} */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 html {
   height: 100%;
@@ -24,7 +25,11 @@ body {
   line-height: 1.5; 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  font-family: "TAN PEARL", sans-serif;
+  /* font-family: "TAN PEARL", sans-serif; */
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
   cursor: help;
   color: var(--clr-font);
   background-color: black;
@@ -85,6 +90,8 @@ h7 {
   height: 100%;
   object-fit: cover;
   position: fixed;
+  filter: saturate(80%) grayscale(40%) brightness(120%) contrast(120%) blur(15px);
+
 }
 
 .content {

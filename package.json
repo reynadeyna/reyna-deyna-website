@@ -19,6 +19,7 @@
     "firebase": "^9.23.0",
     "firestore": "^1.1.6",
     "framer-motion": "^11.0.3",
+    "lucide-react": "^0.563.0",
     "measure": "^0.1.1",
     "nodemon": "^2.0.22",
     "postcss": "^8.4.33",
