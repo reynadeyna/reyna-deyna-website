@@ -90,7 +90,7 @@ h7 {
   height: 100%;
   object-fit: cover;
   position: fixed;
-  filter: saturate(80%) grayscale(40%) brightness(120%) contrast(120%) blur(15px);
+  filter: saturate(80%) grayscale(70%) brightness(120%) contrast(120%) blur(15px);
 
 }
 

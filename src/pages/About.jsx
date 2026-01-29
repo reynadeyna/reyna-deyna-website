@@ -15,7 +15,7 @@ const About = () => {
               <br />
               My current obsessions:
               <br />
-              Digital Minimalism, Simple Living, Taste, Expression, Paganism, Mythology, Electronics, Herbal Medicine, Nature Connectedness, Solarpunk, Thinking, Writing, River or Fire Watching, Computer Science, and Technology.
+              Digital Minimalism, Simple Living, Taste, Expression, Paganism, Electronics, Herbal Medicine, Nature Connectedness, Solarpunk, Thinking, Writing, River or Fire Watching, Computer Science, and Technology.
               <br />
               <br />
               Thank you for visiting. Have the most beautiful day, Human.

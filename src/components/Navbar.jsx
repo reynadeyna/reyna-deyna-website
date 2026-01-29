@@ -6,23 +6,23 @@ import { Disc } from 'lucide-react';
 
 
 const buttonStyle = {
-  width: "220px",
-  height: "40px",
-  lineHeight: "40px",
-  // fontSize: "14px",        
-  // fontWeight: 600,
-  textAlign: "center",
-  color: "#ffffff",
-  backdropFilter: "blur(25px)",
-  // backgroundColor: "rgba(255,255,255,0.08)",
-  borderRadius: "16px",
-  // border: "1px solid rgba(255,255,255,0.15)",
-  boxShadow: "0 8px 20px rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255,255,255,0.08)",
-  transition: "all 0.25s ease",
-  overflow: "hidden",
-  whiteSpace: "nowrap",
-  textOverflow: "ellipsis",
-  display: "inline-block",
+  // width: "50px",
+  // height: "30px",
+  // lineHeight: "32px",
+  // // fontSize: "14px",        
+  // // fontWeight: 600,
+  // textAlign: "center",
+  // color: "#ffffff",
+  // backdropFilter: "blur(25px)",
+  // // backgroundColor: "rgba(255,255,255,0.08)",
+  // borderRadius: "12px",
+  // // border: "1px solid rgba(255,255,255,0.15)",
+  // boxShadow: "0 6px 15px rgba(0,0,0,0.12), inset 0 -1px 0 rgba(255,255,255,0.08)",
+  // transition: "all 0.25s ease",
+  // overflow: "hidden",
+  // whiteSpace: "nowrap",
+  // textOverflow: "ellipsis",
+  // display: "inline-block",
 };
 
 
@@ -49,7 +49,7 @@ const Navbar = () => {
     // { name: "DATA", to: "/music" },
     // { name: "SHOP", to: "/shop" },
     { name: "about", to: "/about" },
-    { name: "post", to: "/ama" },
+    { name: "notes", to: "/ama" },
   ];
 
   return (

@@ -37,17 +37,17 @@ const Contacts = () => {
       <div className="text-center">
         <div className="mb-6">
           <h1 className="text-xl mb-4">
-            leave a letter • ask me anything
+            leave a note
           </h1>
                     <h6 className="text-xs font-light">
-            or, send me a secret at{" "}
+            {/* or, send me a secret at{" "} */}
             <a href="mailto:angel@reynadeyna.com" className="">
-              angel@reynadeyna.com
+              {/* angel@reynadeyna.com */}
             </a>
           </h6>
           <h6 className="text-xs font-light mt-2 mb-2">
-            your email remains confidential and visible solely
-            to authorized reyaware
+            • your email remains confidential and visible solely
+            to authorized reyaware •
           </h6>
 
         </div>
@@ -87,7 +87,11 @@ const Contacts = () => {
           type="submit"
           className="rounded-md border border-transparent p-3 text-base cursor-crosshair transition duration-250 shadow-drop hover:border-00ffea13 hover:shadow-00ffeaaa"
         >
-          ·:*¨༺ submit ༻¨*:·
+          {/* ·:*¨༺  */}
+          •
+          submit 
+          •
+          {/* ༻¨*:· */}
         </button>
       </form>
     </div>
