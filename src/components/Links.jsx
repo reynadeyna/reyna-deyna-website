@@ -15,7 +15,7 @@ const Links = () => {
         </a>
 
         <a
-          href="https://tickets.paysera.com/lt/event/reya-proxy"
+          href=""
           target="_blank"
           className="hover:animate-pulse"
     
@@ -24,7 +24,7 @@ const Links = () => {
         </a>
 
         <a
-          href="https://tickets.paysera.com/lt/event/reya-proxy"
+          href=""
           target="_blank"
           className="hover:animate-pulse"
         >

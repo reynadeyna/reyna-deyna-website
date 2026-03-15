@@ -47,7 +47,8 @@ const MusicOverlay = ({ open, onClose }) => {
             animate="visible"
             exit="exit"
           >
-            <div className="flex flex-col items-center space-y-4 pointer-events-auto">
+            i do not exist
+            {/* <div className="flex flex-col items-center space-y-4 pointer-events-auto">
               {musicLinks.map(({ name, url }, i) => (
                 <motion.a
                   key={name}
@@ -63,7 +64,7 @@ const MusicOverlay = ({ open, onClose }) => {
                   {name}
                 </motion.a>
               ))}
-            </div>
+            </div> */}
           </motion.div>
         </>
       )}

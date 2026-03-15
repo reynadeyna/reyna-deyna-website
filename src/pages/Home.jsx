@@ -98,7 +98,7 @@ const Home = () => {
           <Links />
         </div>
 
-        <h2 className="footer-text-2 text-center">coded by reya proxy</h2>
+        <h2 className="footer-text-2 text-center">coded by reya</h2>
       </div>
     </div>
   );

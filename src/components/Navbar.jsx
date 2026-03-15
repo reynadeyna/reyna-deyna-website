@@ -66,22 +66,178 @@ const Navbar = () => {
         <Disc
           className="
     cursor-pointer 
-    h-7 w-7
+  mt-8
     text-white/50
     p-2 
     transition-all duration-300
     hover:text-white/70
     hover:scale-105
     hover:shadow-white/20
-    rounded-full
   "          onClick={toggleMenu}
           strokeWidth={1}
+        /> 
 
-        />
+        <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
+
+                <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
+
+                <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
+
+                <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
+
+                <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
 
 
+                <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
+
+
+                <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
+
+
+                <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
+
+                <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
+
+
+                <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
+
+
+                <Disc
+          className="
+    cursor-pointer 
+  mt-8
+    text-white/50
+    p-2 
+    transition-all duration-300
+    hover:text-white/70
+    hover:scale-105
+    hover:shadow-white/20
+  "          onClick={toggleMenu}
+          strokeWidth={1}
+        /> 
 
       </nav>
+      
 
       <AnimatePresence>
         {menuOpen && (
